@@ -9,8 +9,7 @@ Table of Contents
 Dictionary
 ----
 - Bilingual Dictionary
-1. [CC-CEDICT](https://cc-cedict.org/wiki/start) A bilingual dictionary between English and Chinese.
-
+  - [CC-CEDICT](https://cc-cedict.org/wiki/start) A bilingual dictionary between English and Chinese.
 -----
 License
 ----
