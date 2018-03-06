@@ -5,11 +5,25 @@ Table of Contents
 ----
 
 - __[Dictionary ](#dictionary)__
+- __[Evaluation Dataset ](#evaluation dataset)__
+- __[Reference ](#reference)__
 
 Dictionary
 ----
 - Bilingual Dictionary
   - [CC-CEDICT](https://cc-cedict.org/wiki/start) A bilingual dictionary between English and Chinese.
+
+
+Evaluation Dataset
+----
+- Event-Representation/Event Schema Induction/Script Learning
+  - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by <cite>Weber et al., (2018)[1]</cite>. 
+
+Reference
+----
+
+[1] Noah Weber, Niranjan Balasubramanian, and Nathanael Chambers. Event Representations with Tensor-based Compositions. In Proc of AAAI 2018.
+
 -----
 License
 ----
