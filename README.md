@@ -5,6 +5,7 @@ Table of Contents
 ----
 
 - __[Dictionary ](#dictionary)__
+- __[Lexicon ](#Lexicon)__
 - __[Machine Translation ](#machine translation)__
 - __[Sentiment ](#sentment)__
 - __[Question Answer ](#question answer)__
@@ -18,6 +19,21 @@ Dictionary
 - Pronouncing Dictionary
   - [CMUdict](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) The Carnegie Mellon University Pronouncing Dictionary is an open-source machine-readable pronunciation dictionary for North American English that contains over 134,000 words and their pronunciations. 
 
+Lexicon
+----
+  - [PDEV](http://pdev.org.uk) Pattern Dictionary of English Verbs. 
+  - [VerbNet](http://verbs.colorado.edu/~mpalmer/projects/verbnet.html) A lexicon that groups verbs based on their semantic/syntactic linking behavior.
+  - [FrameNet](http://framenet.icsi.berkeley.edu) A lexicon based on frame semantics.
+  - [WordNet](http://wordnet.princeton.edu) A lexicon that describes semantic relationships (such as synonymy and hyperonymy) between individual words.
+  - [PropBank](http://en.wikipedia.org/wiki/PropBank) A corpus of one million words of English text, annotated with argument role labels for verbs; and a lexicon defining those argument roles on a per-verb basis.
+  - [SemLink](https://verbs.colorado.edu/semlink) A project whose aim is to link together different lexical resources via set of mappings. (VerbNet, PropBank, FrameNet, WordNet)
+
+Machine Translation
+----
+  - [Europarl](http://www.statmt.org/europarl) The Europarl parallel corpus is extracted from the proceedings of the European Parliament. It includes versions in 21 European languages: Romanic (French, Italian, Spanish, Portuguese, Romanian), Germanic (English, Dutch, German, Danish, Swedish), Slavik (Bulgarian, Czech, Polish, Slovak, Slovene), Finni-Ugric (Finnish, Hungarian, Estonian), Baltic (Latvian, Lithuanian), and Greek.
+  - [UNCorpus](https://conferences.unite.un.org/UNCorpus) The United Nations Parallel Corpus v1.0 is composed of official records and other parliamentary documents of the United Nations that are in the public domain.
+  - [CWMT](http://nlp.nju.edu.cn/cwmt-wmt/)  The Zh-EN data collected and shared by China Workshop on Machine Translation (CWMT) community. There are three types of data for Chinese-English machine translation: Monolingual Chinese text, Parallel Chinese-English text, Multiple-Reference text.
+
 Question Answer
 ----
 - Text Retrieval
@@ -27,6 +43,8 @@ Evaluation Dataset
 ----
 - Event-Representation/Event Schema Induction/Script Learning
   - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by <cite>Weber et al., (2018)[1]</cite>. 
+- SemEval
+    
 
 Reference
 ----
