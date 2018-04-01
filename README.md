@@ -5,14 +5,14 @@ Table of Contents
 ----
 
 - __[Dictionary ](#dictionary)__
-- __[Lexicon ](#Lexicon)__
-- __[Language Model](#language model)__
-- __[Machine Translation ](#machine translation)__
+- __[Lexicon ](#lexicon)__
+- __[Language Model ](#'language model')__
+- __[Machine Translation ](#machinetranslation)__
 - __[Sentiment ](#sentment)__
-- __[Question Answer ](#question answer)__
-- __[Evaluation Dataset ](#evaluation dataset)__
-- __[Reference ](#reference)__
+- __[Question Answer ](#questionanswer)__
+- __[Evaluation Dataset ](#evaluationdataset)__
 - __[Event](#event)__
+- __[Reference ](#reference)__
 
 Dictionary
 ----
