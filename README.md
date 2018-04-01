@@ -6,7 +6,7 @@ Table of Contents
 
 - __[Dictionary ](#dictionary)__
 - __[Lexicon ](#lexicon)__
-- __[Language Model ](#'language model')__
+- __[Language Model ](#languagemodel)__
 - __[Machine Translation ](#machinetranslation)__
 - __[Sentiment ](#sentment)__
 - __[Question Answer ](#questionanswer)__
