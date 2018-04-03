@@ -6,6 +6,7 @@ Table of Contents
 
 - __[Dictionary ](#dictionary)__
 - __[Lexicon ](#lexicon)__
+- __[TreeBank ](#treebank)__
 - __[Language Model ](#languagemodel)__
 - __[Machine Translation ](#machinetranslation)__
 - __[Sentiment ](#sentment)__
@@ -29,6 +30,11 @@ Lexicon
   - [WordNet](http://wordnet.princeton.edu) A lexicon that describes semantic relationships (such as synonymy and hyperonymy) between individual words.
   - [PropBank](http://en.wikipedia.org/wiki/PropBank) A corpus of one million words of English text, annotated with argument role labels for verbs; and a lexicon defining those argument roles on a per-verb basis.
   - [SemLink](https://verbs.colorado.edu/semlink) A project whose aim is to link together different lexical resources via set of mappings. (VerbNet, PropBank, FrameNet, WordNet)
+
+TreeBank
+----
+  - [PTB](https://catalog.ldc.upenn.edu/ldc99t42) The Penn Treebank (PTB).
+  - [Universal Dependencies](http://universaldependencies.org) Universal Dependencies (UD) is a framework for cross-linguistically consistent grammatical annotation and an open community effort with over 200 contributors producing more than 100 treebanks in over 60 languages.
 
 Language Model
 ----
@@ -63,6 +69,7 @@ Reference
 ----
 
 [1] Noah Weber, Niranjan Balasubramanian, and Nathanael Chambers. Event Representations with Tensor-based Compositions. In Proc of AAAI 2018.
+
 [2] Tao Lei, Hrishikesh Joshi, Regina Barzilay, Tommi Jaakkola, Katerina Tymoshenko, Alessandro Moschitti, Lluis Marquez. Semi-supervised Question Retrieval with Gated Convolutions. In Proc of NAACL 2016
 
 -----
