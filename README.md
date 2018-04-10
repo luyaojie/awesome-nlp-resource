@@ -12,6 +12,7 @@ Table of Contents
 - __[Sentiment ](#sentment)__
 - __[Question Answer ](#questionanswer)__
 - __[Evaluation Dataset ](#evaluationdataset)__
+- __[Other ](#other)__
 - __[Event](#event)__
 - __[Reference ](#reference)__
 
@@ -53,17 +54,24 @@ Question Answer
 - Text Retrieval
   - [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar"<cite>[2]</cite>.
 
+Other
+----
+  - [QA-SRL](https://dada.cs.washington.edu/qasrl/) This dataset use question-answer pairs to model verbal predicate-argument structure. The questions start with wh-words (Who, What, Where, What, etc.) and contains a verb predicate in the sentence; the answers are phrases in the sentence.
+  
+
 Event
 ----
 - Event Coreference
   - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
+- Other
+  - [TempEval-3](https://www.cs.york.ac.uk/semeval-2013/task1/index.html) The TempEval-3 shared task aims to advance research on temporal information processing.
 
 Evaluation Dataset
 ----
 - Event-Representation/Event Schema Induction/Script Learning
   - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by <cite>Weber et al., (2018)[1]</cite>. 
 - SemEval
-    
+  - [SemEval-2016 Task 9](https://github.com/HIT-SCIR/SemEval-2016) SemEval-2016 Task 9 (Chinese Semantic Dependency Parsing) Datasets
 
 Reference
 ----
