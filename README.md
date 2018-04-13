@@ -61,13 +61,15 @@ Other
 
 Event
 ----
+- Event Extraction
+  - [TempEval-3](https://www.cs.york.ac.uk/semeval-2013/task1/index.html) The TempEval-3 shared task aims to advance research on temporal information processing.
+  - [UW Event Factuality Dataset](https://bitbucket.org/kentonl/factuality-data/src) This dataset contains annotations of text from the TempEval-3 corpus with factuality assessment labels.
+  - [FactBank 1.0](https://catalog.ldc.upenn.edu/ldc2009t23) FactBank 1.0, consists of 208 documents (over 77,000 tokens) from newswire and broadcast news reports in which event mentions are annotated with their degree of factuality,
+  - [ACE 2005 Training Data](http://catalog.ldc.upenn.edu/LDC2006T06) The corpus consists of data of various types annotated for entities, relations and events was created by Linguistic Data Consortium with support from the ACE Program, across three languages: English, Chinese, Arabic.
+  - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
+
 - Event Coreference
   - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
-- Other
-  - [TempEval-3](https://www.cs.york.ac.uk/semeval-2013/task1/index.html) The TempEval-3 shared task aims to advance research on temporal information processing.
-  - [UW Event Factuality Dataset](https://bitbucket.org/kentonl/factuality-data/src) This dataset contains annotations of text from the TempEval-3 corpus with factuality assessment labels. 
-  - [FactBank 1.0](https://catalog.ldc.upenn.edu/ldc2009t23) FactBank 1.0, consists of 208 documents (over 77,000 tokens) from newswire and broadcast news reports in which event mentions are annotated with their degree of factuality,
-  - [ACE 2005 Training Data](http://catalog.ldc.upenn.edu/LDC2006T06) The corpus consists of data of various types annotated for entities, relations and events was created by Linguistic Data Consortium with support from the ACE Program, across three languages: English, Chinese, Arabic. 
 
 Evaluation Dataset
 ----
