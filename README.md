@@ -12,6 +12,7 @@ Table of Contents
 - __[Sentiment ](#sentment)__
 - __[Question Answer ](#questionanswer)__
 - __[Evaluation Dataset ](#evaluationdataset)__
+- __[Word Embedding ](#wordembedding)__
 - __[Other ](#other)__
 - __[Event](#event)__
 - __[Reference ](#reference)__
@@ -42,12 +43,24 @@ Language Model
   - [PTB](https://github.com/townie/PTB-dataset-from-Tomas-Mikolov-s-webpage/tree/master/data) Penn Treebank Corpus in LM Version.
   - [Google Billion Word dataset](https://github.com/ciprian-chelba/1-billion-word-language-modeling-benchmark) 1 billion word language modeling benchmark.
   - [WikiText](https://einstein.ai/research/the-wikitext-long-term-dependency-language-modeling-dataset) The WikiText language modeling dataset is a collection of over 100 million tokens extracted from the set of verified Good and Featured articles on Wikipedia. Compared to the preprocessed version of Penn Treebank (PTB), WikiText-2 is over 2 times larger and WikiText-103 is over 110 times larger. 
+  - ​
 
 Machine Translation
 ----
   - [Europarl](http://www.statmt.org/europarl) The Europarl parallel corpus is extracted from the proceedings of the European Parliament. It includes versions in 21 European languages: Romanic (French, Italian, Spanish, Portuguese, Romanian), Germanic (English, Dutch, German, Danish, Swedish), Slavik (Bulgarian, Czech, Polish, Slovak, Slovene), Finni-Ugric (Finnish, Hungarian, Estonian), Baltic (Latvian, Lithuanian), and Greek.
   - [UNCorpus](https://conferences.unite.un.org/UNCorpus) The United Nations Parallel Corpus v1.0 is composed of official records and other parliamentary documents of the United Nations that are in the public domain.
   - [CWMT](http://nlp.nju.edu.cn/cwmt-wmt/)  The Zh-EN data collected and shared by China Workshop on Machine Translation (CWMT) community. There are three types of data for Chinese-English machine translation: Monolingual Chinese text, Parallel Chinese-English text, Multiple-Reference text.
+  - [WMT](http://www.statmt.org/wmt16/translation-task.html#download) Monolingual language model training data, such as Common Crawl\News Crawl in CS\DE\EN\FI\RO\RU\TR and Parallel data.
+
+Word Embedding
+--------------
+  - [Google News Word2vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) The model contains 300-dimensional vectors for 3 million words and phrases which trained on part of Google News dataset (about 100 billion words).
+  - [GloVe Pre-trained](https://nlp.stanford.edu/projects/glove/) Pre-trained word vectors using GloVe. Wikipedia + Gigaword 5, Common Crawl, Twitter.
+  - [fastText Pre-trained](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)  Pre-trained word vectors for 294 languages, trained on Wikipedia using fastText.
+  - [BPEmb](https://github.com/bheinzerling/bpemb) BPEmb is a collection of pre-trained **subword embeddings** in 275 languages, based on Byte-Pair Encoding (BPE) and trained on Wikipedia. 
+  - [Dependency-based Word Embedding](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/) Pre-trained word embeddings based on **Dependency** information, from *Dependency-Based Word Embeddings, ACL 2014.*.
+  - [Meta-Embeddings](http://cistern.cis.lmu.de/meta-emb/) performs ensembles of some pretrained word embedding versions, from *Meta-Embeddings: Higher-quality word embeddings via ensembles of Embedding Sets, ACL 2016.*
+  - [LexVec](https://github.com/alexandres/lexvec) Pre-trained Vectors based on the **LexVec word embedding model**. Common Crawl, English Wikipedia and NewsCrawl.
 
 Question Answer
 ----
@@ -57,7 +70,7 @@ Question Answer
 Other
 ----
   - [QA-SRL](https://dada.cs.washington.edu/qasrl/) This dataset use question-answer pairs to model verbal predicate-argument structure. The questions start with wh-words (Who, What, Where, What, etc.) and contains a verb predicate in the sentence; the answers are phrases in the sentence.
-  
+
 
 Event
 ----
