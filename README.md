@@ -61,6 +61,7 @@ Word Embedding
   - [Dependency-based Word Embedding](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/) Pre-trained word embeddings based on **Dependency** information, from *Dependency-Based Word Embeddings, ACL 2014.*.
   - [Meta-Embeddings](http://cistern.cis.lmu.de/meta-emb/) performs ensembles of some pretrained word embedding versions, from *Meta-Embeddings: Higher-quality word embeddings via ensembles of Embedding Sets, ACL 2016.*
   - [LexVec](https://github.com/alexandres/lexvec) Pre-trained Vectors based on the **LexVec word embedding model**. Common Crawl, English Wikipedia and NewsCrawl.
+  - [MUSE](https://github.com/facebookresearch/MUSE) MUSE is a Python library for multilingual word embeddings, which provide multilingual embeddings for 30 languages and 110 large-scale ground-truth bilingual dictionaries .
 
 Question Answer
 ----
