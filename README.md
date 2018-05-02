@@ -6,25 +6,24 @@ Table of Contents
 
 - __[Dictionary ](#dictionary)__
 - __[Lexicon ](#lexicon)__
-- __[TreeBank ](#treebank)__
-- __[Language Model ](#languagemodel)__
-- __[Machine Translation ](#machinetranslation)__
-- __[Sentiment ](#sentment)__
-- __[Question Answer ](#questionanswer)__
-- __[Evaluation Dataset ](#evaluationdataset)__
+- __[Parsing ](#parsing)__
+- __[Language Model ](#lm)__
+- __[Machine Translation ](#mt)__
+- __[Sentiment ](#sentiment)__
+- __[Question Answer ](#qa)__
 - __[Word Embedding ](#wordembedding)__
+- __[Information Extraction](#ie)__
 - __[Other ](#other)__
-- __[Event](#event)__
 - __[Reference ](#reference)__
 
-Dictionary
+<span id='dictionary'>Dictionary</span>
 ----
 - Bilingual Dictionary
   - [CC-CEDICT](https://cc-cedict.org/wiki/start) A bilingual dictionary between English and Chinese.
 - Pronouncing Dictionary
   - [CMUdict](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) The Carnegie Mellon University Pronouncing Dictionary is an open-source machine-readable pronunciation dictionary for North American English that contains over 134,000 words and their pronunciations. 
 
-Lexicon
+<span id='lexicon'>Lexicon</span>
 ----
   - [PDEV](http://pdev.org.uk) Pattern Dictionary of English Verbs. 
   - [VerbNet](http://verbs.colorado.edu/~mpalmer/projects/verbnet.html) A lexicon that groups verbs based on their semantic/syntactic linking behavior.
@@ -33,26 +32,33 @@ Lexicon
   - [PropBank](http://en.wikipedia.org/wiki/PropBank) A corpus of one million words of English text, annotated with argument role labels for verbs; and a lexicon defining those argument roles on a per-verb basis.
   - [SemLink](https://verbs.colorado.edu/semlink) A project whose aim is to link together different lexical resources via set of mappings. (VerbNet, PropBank, FrameNet, WordNet)
 
-TreeBank
+<span id='parsing'>Parsing</span>
 ----
   - [PTB](https://catalog.ldc.upenn.edu/ldc99t42) The Penn Treebank (PTB).
   - [Universal Dependencies](http://universaldependencies.org) Universal Dependencies (UD) is a framework for cross-linguistically consistent grammatical annotation and an open community effort with over 200 contributors producing more than 100 treebanks in over 60 languages.
+  - [SemEval-2016 Task 9](https://github.com/HIT-SCIR/SemEval-2016) SemEval-2016 Task 9 (Chinese Semantic Dependency Parsing) Datasets
 
-Language Model
+<span id='lm'>Language Model</span>
 ----
   - [PTB](https://github.com/townie/PTB-dataset-from-Tomas-Mikolov-s-webpage/tree/master/data) Penn Treebank Corpus in LM Version.
   - [Google Billion Word dataset](https://github.com/ciprian-chelba/1-billion-word-language-modeling-benchmark) 1 billion word language modeling benchmark.
   - [WikiText](https://einstein.ai/research/the-wikitext-long-term-dependency-language-modeling-dataset) The WikiText language modeling dataset is a collection of over 100 million tokens extracted from the set of verified Good and Featured articles on Wikipedia. Compared to the preprocessed version of Penn Treebank (PTB), WikiText-2 is over 2 times larger and WikiText-103 is over 110 times larger. 
-  - ​
 
-Machine Translation
+<span id='mt'>Machine Translation</span>
 ----
   - [Europarl](http://www.statmt.org/europarl) The Europarl parallel corpus is extracted from the proceedings of the European Parliament. It includes versions in 21 European languages: Romanic (French, Italian, Spanish, Portuguese, Romanian), Germanic (English, Dutch, German, Danish, Swedish), Slavik (Bulgarian, Czech, Polish, Slovak, Slovene), Finni-Ugric (Finnish, Hungarian, Estonian), Baltic (Latvian, Lithuanian), and Greek.
+
   - [UNCorpus](https://conferences.unite.un.org/UNCorpus) The United Nations Parallel Corpus v1.0 is composed of official records and other parliamentary documents of the United Nations that are in the public domain.
+
   - [CWMT](http://nlp.nju.edu.cn/cwmt-wmt/)  The Zh-EN data collected and shared by China Workshop on Machine Translation (CWMT) community. There are three types of data for Chinese-English machine translation: Monolingual Chinese text, Parallel Chinese-English text, Multiple-Reference text.
+
   - [WMT](http://www.statmt.org/wmt16/translation-task.html#download) Monolingual language model training data, such as Common Crawl\News Crawl in CS\DE\EN\FI\RO\RU\TR and Parallel data.
 
-Word Embedding
+<span id='sentiment'>Sentiment</span>
+---------
+  - [MPQA 3.0](http://mpqa.cs.pitt.edu/corpora/mpqa_corpus/) This corpus contains news articles and other text documents manually annotated for opinions and other private states (i.e., beliefs, emotions, sentiments, speculations, etc.). The main changes in this version of the MPQA corpus are the additions of new eTarget (entity/event) annotations.
+
+<span id='wordembedding'>Word Embedding</span>
 --------------
   - [Google News Word2vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) The model contains 300-dimensional vectors for 3 million words and phrases which trained on part of Google News dataset (about 100 billion words).
   - [GloVe Pre-trained](https://nlp.stanford.edu/projects/glove/) Pre-trained word vectors using GloVe. Wikipedia + Gigaword 5, Common Crawl, Twitter.
@@ -63,18 +69,18 @@ Word Embedding
   - [LexVec](https://github.com/alexandres/lexvec) Pre-trained Vectors based on the **LexVec word embedding model**. Common Crawl, English Wikipedia and NewsCrawl.
   - [MUSE](https://github.com/facebookresearch/MUSE) MUSE is a Python library for multilingual word embeddings, which provide multilingual embeddings for 30 languages and 110 large-scale ground-truth bilingual dictionaries .
 
-Question Answer
-----
-- Text Retrieval
-  - [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar"<cite>[2]</cite>.
 
-Other
+<span id="qa">Question Answer</span>
 ----
-  - [QA-SRL](https://dada.cs.washington.edu/qasrl/) This dataset use question-answer pairs to model verbal predicate-argument structure. The questions start with wh-words (Who, What, Where, What, etc.) and contains a verb predicate in the sentence; the answers are phrases in the sentence.
+- [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar"<cite>[2]</cite>.
 
 
-Event
+<span id="ie">Information Extraction</span>
 ----
+- Relation Extraction
+  - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers. 
+  - [Datasets of Annotated Semantic Relationships](https://github.com/davidsbatista/Annotated-Semantic-Relationships-Datasets) **RECOMMEND** This repository contains annotated datasets which can be used to train supervised models for the task of semantic relationship extraction.
+
 - Event Extraction
   - [TempEval-3](https://www.cs.york.ac.uk/semeval-2013/task1/index.html) The TempEval-3 shared task aims to advance research on temporal information processing.
   - [UW Event Factuality Dataset](https://bitbucket.org/kentonl/factuality-data/src) This dataset contains annotations of text from the TempEval-3 corpus with factuality assessment labels.
@@ -82,15 +88,17 @@ Event
   - [ACE 2005 Training Data](http://catalog.ldc.upenn.edu/LDC2006T06) The corpus consists of data of various types annotated for entities, relations and events was created by Linguistic Data Consortium with support from the ACE Program, across three languages: English, Chinese, Arabic.
   - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
 
+
+- Event-Representation/Event Schema Induction/Script Learning
+  - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by <cite>Weber et al., (2018)[1]</cite>. 
+
 - Event Coreference
   - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
 
-Evaluation Dataset
+Other
 ----
-- Event-Representation/Event Schema Induction/Script Learning
-  - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by <cite>Weber et al., (2018)[1]</cite>. 
-- SemEval
-  - [SemEval-2016 Task 9](https://github.com/HIT-SCIR/SemEval-2016) SemEval-2016 Task 9 (Chinese Semantic Dependency Parsing) Datasets
+  - [QA-SRL](https://dada.cs.washington.edu/qasrl/) This dataset use question-answer pairs to model verbal predicate-argument structure. The questions start with wh-words (Who, What, Where, What, etc.) and contains a verb predicate in the sentence; the answers are phrases in the sentence.
+  - [NEWSROOM](https://summari.es) CORNELL NEWSROOM is a large dataset for training and evaluating summarization systems. It contains 1.3 million articles and summaries written by authors and editors in the newsrooms of 38 major publications.
 
 Reference
 ----
