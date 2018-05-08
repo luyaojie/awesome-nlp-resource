@@ -13,6 +13,7 @@ Table of Contents
 - __[Question Answer ](#qa)__
 - __[Word Embedding ](#wordembedding)__
 - __[Information Extraction](#ie)__
+- __[Natural Language Inference](#NLI)__
 - __[Other ](#other)__
 - __[Reference ](#reference)__
 
@@ -57,6 +58,11 @@ Table of Contents
 <span id='sentiment'>Sentiment</span>
 ---------
   - [MPQA 3.0](http://mpqa.cs.pitt.edu/corpora/mpqa_corpus/) This corpus contains news articles and other text documents manually annotated for opinions and other private states (i.e., beliefs, emotions, sentiments, speculations, etc.). The main changes in this version of the MPQA corpus are the additions of new eTarget (entity/event) annotations.
+  - [SenticNet](http://sentic.net) SenticNet provides a set of semantics, sentics, and polarity associated with 100,000 natural language concepts. SenticNet consists of a set of tools and techniques for sentiment analysis combining commonsense reasoning, psychology, linguistics, and machine learning. 
+  - [SentiWordNet](http://sentiwordnet.isti.cnr.it) SentiWordNet is a lexical resource for opinion mining. SentiWordNet assigns to each synset of WordNet three sentiment scores: positivity, negativity, objectivity.
+  - [NRC Word-Emotion Association Lexicon ](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). 
+  - [Stanford Sentiment TreeBank](https://nlp.stanford.edu/sentiment/index.html) SST is the dataset of the paper: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts Conference on Empirical Methods in Natural Language Processing (EMNLP 2013)
+  - [SemEval-2013 Twitter](https://www.cs.york.ac.uk/semeval-2013/task2/index.html) SemEval 2013 Twitter dataset, which contains phrase-level sentiment annotation. 
 
 <span id='wordembedding'>Word Embedding</span>
 --------------
@@ -95,10 +101,19 @@ Table of Contents
 - Event Coreference
   - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
 
+<span id="nli">Natural Language Inference</span>
+----
+  - [SNLI](https://nlp.stanford.edu/projects/snli/) The SNLI corpus (version 1.0) is a collection of 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral, supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE).
+  - [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/) The Multi-Genre Natural Language Inference (MultiNLI) corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers **a range of genres** of spoken and written text, and supports a distinctive cross-genre generalization evaluation.
+  - [Scitail](http://data.allenai.org/scitail/) The SciTail dataset is an entailment dataset created from multiple-choice science exams and web sentences. The domain makes this dataset different in nature from previous datasets, and it consists of more factual sentences rather than scene descriptions.
+  - [Quora Question Pairs](http://qim.ec.quoracdn.net/quora_duplicate_questions.tsv) Quora Question Pairs dataset consists of over 400,000 lines of potential question duplicate pairs. [[Kaggle Version Format]](https://www.kaggle.com/c/quora-question-pairs/data)
+
 Other
 ----
   - [QA-SRL](https://dada.cs.washington.edu/qasrl/) This dataset use question-answer pairs to model verbal predicate-argument structure. The questions start with wh-words (Who, What, Where, What, etc.) and contains a verb predicate in the sentence; the answers are phrases in the sentence.
   - [NEWSROOM](https://summari.es) CORNELL NEWSROOM is a large dataset for training and evaluating summarization systems. It contains 1.3 million articles and summaries written by authors and editors in the newsrooms of 38 major publications.
+  - [CoNLL 2010 Uncertainty Detection](http://rgai.inf.u-szeged.hu/conll2010st/tasks.html) The aim of this task is to identify sentences in texts which contain unreliable or uncertain information. Training Data contains biological abstracts and full articles from the **BioScope** (biomedical domain) corpus and paragraphs from **Wikipedia** possibly containing weasel information.
+
 
 Reference
 ----
