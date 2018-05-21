@@ -9,6 +9,7 @@ Table of Contents
 - __[Parsing ](#parsing)__
 - __[Language Model ](#lm)__
 - __[Machine Translation ](#mt)__
+- __[Text Generation ](#textgeneration)__
 - __[Sentiment ](#sentiment)__
 - __[Question Answer ](#qa)__
 - __[Word Embedding ](#wordembedding)__
@@ -55,6 +56,12 @@ Table of Contents
 
   - [WMT](http://www.statmt.org/wmt16/translation-task.html#download) Monolingual language model training data, such as Common Crawl\News Crawl in CS\DE\EN\FI\RO\RU\TR and Parallel data.
 
+<span id='textgeneration'>Text Generation</span>
+----
+  - [ACL Title and Abstract Dataset](https://github.com/EagleW/ACL_titles_abstracts_dataset) This dataset gathers 10,874 title and abstract pairs from the ACL Anthology Network (until 2016).
+  - [WikiBio](https://github.com/DavidGrangier/wikipedia-biography-dataset) This dataset gathers 728,321 biographies from wikipedia. It aims at evaluating text generation algorithms. For each article, it provide the first paragraph and the infobox (both tokenized).
+  - [Tencent Automatic Article Commenting](http://ai.tencent.com/upload/PapersUploads/article_commenting.tgz) A large-scale Chinese dataset with millions of real comments and a human-annotated subset characterizing the comments’ varying quality. This dataset consists of around 200K news articles and 4.5M human comments along with rich meta data for article categories and user votes of comments.
+
 <span id='sentiment'>Sentiment</span>
 ---------
   - [MPQA 3.0](http://mpqa.cs.pitt.edu/corpora/mpqa_corpus/) This corpus contains news articles and other text documents manually annotated for opinions and other private states (i.e., beliefs, emotions, sentiments, speculations, etc.). The main changes in this version of the MPQA corpus are the additions of new eTarget (entity/event) annotations.
@@ -74,11 +81,13 @@ Table of Contents
   - [Meta-Embeddings](http://cistern.cis.lmu.de/meta-emb/) performs ensembles of some pretrained word embedding versions, from *Meta-Embeddings: Higher-quality word embeddings via ensembles of Embedding Sets, ACL 2016.*
   - [LexVec](https://github.com/alexandres/lexvec) Pre-trained Vectors based on the **LexVec word embedding model**. Common Crawl, English Wikipedia and NewsCrawl.
   - [MUSE](https://github.com/facebookresearch/MUSE) MUSE is a Python library for multilingual word embeddings, which provide multilingual embeddings for 30 languages and 110 large-scale ground-truth bilingual dictionaries .
+  - [CWV](https://github.com/Embedding/Chinese-Word-Vectors) This project provides 100+ Chinese Word Vectors (embeddings) trained with different representations (dense and sparse), context features (word, ngram, character, and more), and corpora.
 
 
 <span id="qa">Question Answer</span>
 ----
 - [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar"<cite>[2]</cite>.
+- [HarvestingQA](https://github.com/xinyadu/harvestingQA/tree/master/dataset) This folder contains the one million paragraph-level QA-pairs dataset (split into Train, Dev and Test set) described in: *Harvesting Paragraph-Level Question-Answer Pairs from Wikipedia* (ACL 2018).
 
 
 <span id="ie">Information Extraction</span>
@@ -94,12 +103,15 @@ Table of Contents
   - [ACE 2005 Training Data](http://catalog.ldc.upenn.edu/LDC2006T06) The corpus consists of data of various types annotated for entities, relations and events was created by Linguistic Data Consortium with support from the ACE Program, across three languages: English, Chinese, Arabic.
   - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
 
-
 - Event-Representation/Event Schema Induction/Script Learning
   - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by <cite>Weber et al., (2018)[1]</cite>. 
 
 - Event Coreference
   - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
+
+- Open Information Extraction
+  - [oie-benchmark](https://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.q
+  - [NeuralOpenIE](https://onedrive.live.com/?authkey=%21AHj1kHDE5TSS0e8&cid=C826C2D6F4C7D993&id=C826C2D6F4C7D993%213193&parId=C826C2D6F4C7D993%213189&action=locate) A training dataset from *Neural Open Information Extraction*, ACL 2018. here are a total of 36,247,584 hsentence, tuplei pairs extracted from Wikipedia dump using OPENIE4.
 
 <span id="nli">Natural Language Inference</span>
 ----
@@ -111,8 +123,10 @@ Table of Contents
 Other
 ----
   - [QA-SRL](https://dada.cs.washington.edu/qasrl/) This dataset use question-answer pairs to model verbal predicate-argument structure. The questions start with wh-words (Who, What, Where, What, etc.) and contains a verb predicate in the sentence; the answers are phrases in the sentence.
+  - [QA-SRL 2.0](https://github.com/uwnlp/qasrl-bank) This repository is the reference point for QA-SRL Bank 2.0, the dataset described in the paper Large-Scale QA-SRL Parsing, ACL 2018. 
   - [NEWSROOM](https://summari.es) CORNELL NEWSROOM is a large dataset for training and evaluating summarization systems. It contains 1.3 million articles and summaries written by authors and editors in the newsrooms of 38 major publications.
   - [CoNLL 2010 Uncertainty Detection](http://rgai.inf.u-szeged.hu/conll2010st/tasks.html) The aim of this task is to identify sentences in texts which contain unreliable or uncertain information. Training Data contains biological abstracts and full articles from the **BioScope** (biomedical domain) corpus and paragraphs from **Wikipedia** possibly containing weasel information.
+  - [Automatic Academic Paper Rating](https://github.com/lancopku/AAPR) A dataset for automatic academic paper rating (AAPR), which automatically determine whether to accept academic papers. The dataset consists of 19,218 academic papers by collecting data on academic pa- pers in the field of artificial intelligence from the arxiv.
 
 
 Reference
