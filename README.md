@@ -12,7 +12,7 @@ Table of Contents
 - __[Text Generation ](#textgeneration)__
 - __[Sentiment ](#sentiment)__
 - __[Question Answer ](#qa)__
-- __[Word Embedding ](#wordembedding)__
+- __[Word Representation ](#wordrepresentation)__
 - __[Information Extraction](#ie)__
 - __[Natural Language Inference](#NLI)__
 - __[Other ](#other)__
@@ -71,8 +71,9 @@ Table of Contents
   - [Stanford Sentiment TreeBank](https://nlp.stanford.edu/sentiment/index.html) SST is the dataset of the paper: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts Conference on Empirical Methods in Natural Language Processing (EMNLP 2013)
   - [SemEval-2013 Twitter](https://www.cs.york.ac.uk/semeval-2013/task2/index.html) SemEval 2013 Twitter dataset, which contains phrase-level sentiment annotation. 
 
-<span id='wordembedding'>Word Embedding</span>
+<span id='wordrepresentation'>Word Representation</span>
 --------------
+- Word Embedding
   - [Google News Word2vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) The model contains 300-dimensional vectors for 3 million words and phrases which trained on part of Google News dataset (about 100 billion words).
   - [GloVe Pre-trained](https://nlp.stanford.edu/projects/glove/) Pre-trained word vectors using GloVe. Wikipedia + Gigaword 5, Common Crawl, Twitter.
   - [fastText Pre-trained](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)  Pre-trained word vectors for 294 languages, trained on Wikipedia using fastText.
@@ -82,12 +83,20 @@ Table of Contents
   - [LexVec](https://github.com/alexandres/lexvec) Pre-trained Vectors based on the **LexVec word embedding model**. Common Crawl, English Wikipedia and NewsCrawl.
   - [MUSE](https://github.com/facebookresearch/MUSE) MUSE is a Python library for multilingual word embeddings, which provide multilingual embeddings for 30 languages and 110 large-scale ground-truth bilingual dictionaries .
   - [CWV](https://github.com/Embedding/Chinese-Word-Vectors) This project provides 100+ Chinese Word Vectors (embeddings) trained with different representations (dense and sparse), context features (word, ngram, character, and more), and corpora.
-
+  - [charNgram2vec](http://www.logos.t.u-tokyo.ac.jp/~hassy/publications/arxiv2016jmt/) This repository provieds the re-implemented code for pre-training character n-gram embeddings presented in Joint Many-Task (JMT) paper, *A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks, EMNLP2017*.
+- Word Representation with Context
+  - [ELMo](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) Pre-trained contextual representations from large scale bidirectional language models provide large improvements for nearly all supervised NLP tasks.
 
 <span id="qa">Question Answer</span>
 ----
-- [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar"<cite>[2]</cite>.
-- [HarvestingQA](https://github.com/xinyadu/harvestingQA/tree/master/dataset) This folder contains the one million paragraph-level QA-pairs dataset (split into Train, Dev and Test set) described in: *Harvesting Paragraph-Level Question-Answer Pairs from Wikipedia* (ACL 2018).
+- Machine Reading Comprehension
+  - [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) Stanford Question Answering Dataset (SQuAD) is a new reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage. 
+  - [TriviaQA](http://nlp.cs.washington.edu/triviaqa/) TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions. This dataset is from the Wikipedia domain and Web domain.
+  - [NewsQA](https://datasets.maluuba.com/NewsQA) NewsQA is a crowd-sourced machine reading comprehension dataset of 120K Q&A pairs. 
+  - [HarvestingQA](https://github.com/xinyadu/harvestingQA/tree/master/dataset) This folder contains the one million paragraph-level QA-pairs dataset (split into Train, Dev and Test set) described in: *Harvesting Paragraph-Level Question-Answer Pairs from Wikipedia* (ACL 2018).
+- <span id="SimilarQuestionIden">Duplicate/Similar Question Identification</span>
+  - [Quora Question Pairs](http://qim.ec.quoracdn.net/quora_duplicate_questions.tsv) Quora Question Pairs dataset consists of over 400,000 lines of potential question duplicate pairs. [[Kaggle Version Format]](https://www.kaggle.com/c/quora-question-pairs/data)
+  - [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar", from *Semi-supervised Question Retrieval with Gated Convolutions, NAACL2016*.
 
 
 <span id="ie">Information Extraction</span>
@@ -104,7 +113,7 @@ Table of Contents
   - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
 
 - Event-Representation/Event Schema Induction/Script Learning
-  - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by <cite>Weber et al., (2018)[1]</cite>. 
+  - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by *Event Representations with Tensor-based Compositions, AAAI 2018.*. 
 
 - Event/Time Extraction/Time Line Generation
   - [TimeBank](https://catalog.ldc.upenn.edu/LDC2006T08) TimeBank 1.2 contains 183 news articles that have been annotated with temporal information, adding events, times and temporal links(TLINKs) between events and times.
@@ -123,7 +132,7 @@ Table of Contents
   - [SNLI](https://nlp.stanford.edu/projects/snli/) The SNLI corpus (version 1.0) is a collection of 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral, supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE).
   - [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/) The Multi-Genre Natural Language Inference (MultiNLI) corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers **a range of genres** of spoken and written text, and supports a distinctive cross-genre generalization evaluation.
   - [Scitail](http://data.allenai.org/scitail/) The SciTail dataset is an entailment dataset created from multiple-choice science exams and web sentences. The domain makes this dataset different in nature from previous datasets, and it consists of more factual sentences rather than scene descriptions.
-  - [Quora Question Pairs](http://qim.ec.quoracdn.net/quora_duplicate_questions.tsv) Quora Question Pairs dataset consists of over 400,000 lines of potential question duplicate pairs. [[Kaggle Version Format]](https://www.kaggle.com/c/quora-question-pairs/data)
+  - [Duplicate/Similar Question Identification](#SimilarQuestionIden)
 
 Other
 ----
@@ -132,14 +141,6 @@ Other
   - [NEWSROOM](https://summari.es) CORNELL NEWSROOM is a large dataset for training and evaluating summarization systems. It contains 1.3 million articles and summaries written by authors and editors in the newsrooms of 38 major publications.
   - [CoNLL 2010 Uncertainty Detection](http://rgai.inf.u-szeged.hu/conll2010st/tasks.html) The aim of this task is to identify sentences in texts which contain unreliable or uncertain information. Training Data contains biological abstracts and full articles from the **BioScope** (biomedical domain) corpus and paragraphs from **Wikipedia** possibly containing weasel information.
   - [Automatic Academic Paper Rating](https://github.com/lancopku/AAPR) A dataset for automatic academic paper rating (AAPR), which automatically determine whether to accept academic papers. The dataset consists of 19,218 academic papers by collecting data on academic pa- pers in the field of artificial intelligence from the arxiv.
-
-
-Reference
-----
-
-[1] Noah Weber, Niranjan Balasubramanian, and Nathanael Chambers. Event Representations with Tensor-based Compositions. In Proc of AAAI 2018.
-
-[2] Tao Lei, Hrishikesh Joshi, Regina Barzilay, Tommi Jaakkola, Katerina Tymoshenko, Alessandro Moschitti, Lluis Marquez. Semi-supervised Question Retrieval with Gated Convolutions. In Proc of NAACL 2016
 
 -----
 License
