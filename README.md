@@ -113,6 +113,8 @@ Table of Contents
   - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
 
 - Event-Representation/Event Schema Induction/Script Learning
+  - [Narrative Cloze Evaluation Data](https://www.usna.edu/Users/cs/nchamber/data/chains)  Evaluate understanding of a script by predicting the next event given several context events. Details in *Unsupervised Learning of Narrative Schemas and their Participants, ACL 2009*.
+
   - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by *Event Representations with Tensor-based Compositions, AAAI 2018.*. 
 
 - Event/Time Extraction/Time Line Generation
