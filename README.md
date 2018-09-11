@@ -33,6 +33,7 @@ Table of Contents
   - [WordNet](http://wordnet.princeton.edu) A lexicon that describes semantic relationships (such as synonymy and hyperonymy) between individual words.
   - [PropBank](http://en.wikipedia.org/wiki/PropBank) A corpus of one million words of English text, annotated with argument role labels for verbs; and a lexicon defining those argument roles on a per-verb basis.
   - [SemLink](https://verbs.colorado.edu/semlink) A project whose aim is to link together different lexical resources via set of mappings. (VerbNet, PropBank, FrameNet, WordNet)
+  - [NomBank](https://nlp.cs.nyu.edu/meyers/NomBank.html)  A dataset marks the sets of arguments that cooccur with nouns in the PropBank Corpus (the Wall Street Journal Corpus of the Penn Treebank), just as PropBank records such information for verbs.  
 
 <span id='parsing'>Parsing</span>
 ----
@@ -49,12 +50,10 @@ Table of Contents
 <span id='mt'>Machine Translation</span>
 ----
   - [Europarl](http://www.statmt.org/europarl) The Europarl parallel corpus is extracted from the proceedings of the European Parliament. It includes versions in 21 European languages: Romanic (French, Italian, Spanish, Portuguese, Romanian), Germanic (English, Dutch, German, Danish, Swedish), Slavik (Bulgarian, Czech, Polish, Slovak, Slovene), Finni-Ugric (Finnish, Hungarian, Estonian), Baltic (Latvian, Lithuanian), and Greek.
-
   - [UNCorpus](https://conferences.unite.un.org/UNCorpus) The United Nations Parallel Corpus v1.0 is composed of official records and other parliamentary documents of the United Nations that are in the public domain.
-
   - [CWMT](http://nlp.nju.edu.cn/cwmt-wmt/)  The Zh-EN data collected and shared by China Workshop on Machine Translation (CWMT) community. There are three types of data for Chinese-English machine translation: Monolingual Chinese text, Parallel Chinese-English text, Multiple-Reference text.
-
   - [WMT](http://www.statmt.org/wmt16/translation-task.html#download) Monolingual language model training data, such as Common Crawl\News Crawl in CS\DE\EN\FI\RO\RU\TR and Parallel data.
+  - [OPUS](http://opus.nlpl.eu) OPUS is a growing collection of translated texts from the web. In the OPUS project we try to convert and align free online data, to add linguistic annotation, and to provide the community with a publicly available parallel corpus. 
 
 <span id='textgeneration'>Text Generation</span>
 ----
@@ -113,6 +112,7 @@ Table of Contents
   - [FactBank 1.0](https://catalog.ldc.upenn.edu/ldc2009t23) FactBank 1.0, consists of 208 documents (over 77,000 tokens) from newswire and broadcast news reports in which event mentions are annotated with their degree of factuality,
   - [ACE 2005 Training Data](http://catalog.ldc.upenn.edu/LDC2006T06) The corpus consists of data of various types annotated for entities, relations and events was created by Linguistic Data Consortium with support from the ACE Program, across three languages: English, Chinese, Arabic.
   - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
+  - [TAC-KBP](https://tac.nist.gov) Event Evaluation is a sub-track in TAC Knowledge Base Population (KBP), which started from 2015. The goal of TAC Knowledge Base Population (KBP) is to develop and evaluate technologies for populating knowledge bases (KBs) from unstructured text.
 
 - Event-Representation/Event Schema Induction/Script Learning
   - [Narrative Cloze Evaluation Data](https://www.usna.edu/Users/cs/nchamber/data/chains)  Evaluate understanding of a script by predicting the next event given several context events. Details in *Unsupervised Learning of Narrative Schemas and their Participants, ACL 2009*.
