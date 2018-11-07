@@ -102,6 +102,9 @@ Table of Contents
 ----
 - Entity
   - [Shimaoka Fine-grained](http://www.cl.ecei.tohoku.ac.jp/~shimaoka/corpus.zip) This dataset contains two standard and publicly available datasets for Fine-grained Entity Classification, provided in a preprocessed tokenized format, details in *Neural architectures for ﬁne-grained entity type classiﬁcation, EACL 2017*.
+  - [Ultra-Fine Entity Typing](https://homes.cs.washington.edu/~eunsol/_site/open_entity.html) A new entity typing task: given a sentence with an entity mention, the goal is to predict a set of free-form phrases (e.g. skyscraper, songwriter, or criminal) that describe appropriate types for the target entity.
+  - 
+
 - Relation Extraction
   - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers. 
   - [Datasets of Annotated Semantic Relationships](https://github.com/davidsbatista/Annotated-Semantic-Relationships-Datasets) **RECOMMEND** This repository contains annotated datasets which can be used to train supervised models for the task of semantic relationship extraction.
@@ -131,6 +134,8 @@ Table of Contents
   - [oie-benchmark](https://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.q
   - [NeuralOpenIE](https://onedrive.live.com/?authkey=%21AHj1kHDE5TSS0e8&cid=C826C2D6F4C7D993&id=C826C2D6F4C7D993%213193&parId=C826C2D6F4C7D993%213189&action=locate) A training dataset from *Neural Open Information Extraction*, ACL 2018. here are a total of 36,247,584 hsentence, tuplei pairs extracted from Wikipedia dump using OPENIE4.
 
+- Entity Linking
+  - [WikilinksNED](https://github.com/yotam-happy/NEDforNoisyText) A large-scale Named Entity Disambiguation dataset of text fragments from the web, which is significantly noisier and more challenging than existing news-based datasets.
 <span id="nli">Natural Language Inference</span>
 ----
   - [SNLI](https://nlp.stanford.edu/projects/snli/) The SNLI corpus (version 1.0) is a collection of 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral, supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE).
