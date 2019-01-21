@@ -4,19 +4,21 @@ Awesome Resource for NLP [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome
 Table of Contents
 ----
 
-- __[Dictionary ](#dictionary)__
-- __[Lexicon ](#lexicon)__
-- __[Parsing ](#parsing)__
-- __[Language Model ](#lm)__
-- __[Machine Translation ](#mt)__
-- __[Text Generation ](#textgeneration)__
-- __[Sentiment ](#sentiment)__
-- __[Question Answer ](#qa)__
-- __[Word Representation ](#wordrepresentation)__
-- __[Information Extraction](#ie)__
-- __[Natural Language Inference](#NLI)__
-- __[Other ](#other)__
-- __[Reference ](#reference)__
+- [Awesome Resource for NLP ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-resource-for-nlp-awesomehttpsgithubcomsindresorhusawesome)
+  - [Table of Contents](#table-of-contents)
+  - [Dictionary](#dictionary)
+  - [Lexicon](#lexicon)
+  - [Parsing](#parsing)
+  - [Language Model](#language-model)
+  - [Machine Translation](#machine-translation)
+  - [Text Generation](#text-generation)
+  - [Sentiment](#sentiment)
+  - [Word Representation](#word-representation)
+  - [Question Answer](#question-answer)
+  - [Information Extraction](#information-extraction)
+  - [Natural Language Inference](#natural-language-inference)
+  - [Other](#other)
+  - [License](#license)
 
 <span id='dictionary'>Dictionary</span>
 ----
