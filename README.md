@@ -34,8 +34,9 @@ Table of Contents
   - [FrameNet](http://framenet.icsi.berkeley.edu) A lexicon based on frame semantics.
   - [WordNet](http://wordnet.princeton.edu) A lexicon that describes semantic relationships (such as synonymy and hyperonymy) between individual words.
   - [PropBank](http://en.wikipedia.org/wiki/PropBank) A corpus of one million words of English text, annotated with argument role labels for verbs; and a lexicon defining those argument roles on a per-verb basis.
+  - [NomBank](https://nlp.cs.nyu.edu/meyers/NomBank.html)  A dataset marks the sets of arguments that cooccur with nouns in the PropBank Corpus (the Wall Street Journal Corpus of the Penn Treebank), just as PropBank records such information for verbs.
   - [SemLink](https://verbs.colorado.edu/semlink) A project whose aim is to link together different lexical resources via set of mappings. (VerbNet, PropBank, FrameNet, WordNet)
-  - [NomBank](https://nlp.cs.nyu.edu/meyers/NomBank.html)  A dataset marks the sets of arguments that cooccur with nouns in the PropBank Corpus (the Wall Street Journal Corpus of the Penn Treebank), just as PropBank records such information for verbs.  
+  - [Framester](https://lipn.univ-paris13.fr/framester/) Framester is a hub between FrameNet, WordNet, VerbNet, BabelNet, DBpedia, Yago, DOLCE-Zero, as well as other resources. Framester does not simply creates a strongly connected knowledge graph, but also applies a rigorous formal treatment for Fillmore's frame semantics, enabling full-fledged OWL querying and reasoning on the created joint frame-based knowledge graph.
 
 <span id='parsing'>Parsing</span>
 ----
@@ -87,6 +88,7 @@ Table of Contents
   - [charNgram2vec](http://www.logos.t.u-tokyo.ac.jp/~hassy/publications/arxiv2016jmt/) This repository provieds the re-implemented code for pre-training character n-gram embeddings presented in Joint Many-Task (JMT) paper, *A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks, EMNLP2017*.
 - Word Representation with Context
   - [ELMo](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) Pre-trained contextual representations from large scale bidirectional language models provide large improvements for nearly all supervised NLP tasks.
+  - [BERT](https://github.com/google-research/bert) **BERT**, or **B**idirectional **E**ncoder **R**epresentations from **T**ransformers, is a new method of pre-training language representations which obtains state-of-the-art results on a wide array of Natural Language Processing (NLP) tasks. (2018.10)
 
 <span id="qa">Question Answer</span>
 ----
@@ -152,6 +154,7 @@ Other
   - [NEWSROOM](https://summari.es) CORNELL NEWSROOM is a large dataset for training and evaluating summarization systems. It contains 1.3 million articles and summaries written by authors and editors in the newsrooms of 38 major publications.
   - [CoNLL 2010 Uncertainty Detection](http://rgai.inf.u-szeged.hu/conll2010st/tasks.html) The aim of this task is to identify sentences in texts which contain unreliable or uncertain information. Training Data contains biological abstracts and full articles from the **BioScope** (biomedical domain) corpus and paragraphs from **Wikipedia** possibly containing weasel information.
   - [Automatic Academic Paper Rating](https://github.com/lancopku/AAPR) A dataset for automatic academic paper rating (AAPR), which automatically determine whether to accept academic papers. The dataset consists of 19,218 academic papers by collecting data on academic pa- pers in the field of artificial intelligence from the arxiv.
+  - [COLING 2018 automatic identification of verbal MWE](https://gitlab.com/parseme/sharedtask-data/tree/master/1.1) Corpora were annotated by human annotators with occurrences of verbal multiword expressions (VMWEs) according to common annotation guidelines. For example, "He **picked** one **up**."
 
 -----
 License
