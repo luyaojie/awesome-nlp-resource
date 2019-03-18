@@ -42,7 +42,8 @@ Table of Contents
 ----
   - [PTB](https://catalog.ldc.upenn.edu/ldc99t42) The Penn Treebank (PTB).
   - [Universal Dependencies](http://universaldependencies.org) Universal Dependencies (UD) is a framework for cross-linguistically consistent grammatical annotation and an open community effort with over 200 contributors producing more than 100 treebanks in over 60 languages.
-  - [SemEval-2016 Task 9](https://github.com/HIT-SCIR/SemEval-2016) SemEval-2016 Task 9 (Chinese Semantic Dependency Parsing) Datasets
+  - [Tweebank](https://github.com/Oneplus/Tweebank) Tweebank v2 is a collection of English tweets annotated in Universal Dependencies that can be exploited for the training of NLP systems to enhance their performance on social media texts.
+  - [SemEval-2016 Task 9](https://github.com/HIT-SCIR/SemEval-2016) SemEval-2016 Task 9 (Chinese Semantic Dependency Parsing) Datasets.
 
 <span id='lm'>Language Model</span>
 ----
