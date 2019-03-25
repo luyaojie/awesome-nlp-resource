@@ -73,6 +73,8 @@ Table of Contents
   - [NRC Word-Emotion Association Lexicon ](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). 
   - [Stanford Sentiment TreeBank](https://nlp.stanford.edu/sentiment/index.html) SST is the dataset of the paper: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts Conference on Empirical Methods in Natural Language Processing (EMNLP 2013)
   - [SemEval-2013 Twitter](https://www.cs.york.ac.uk/semeval-2013/task2/index.html) SemEval 2013 Twitter dataset, which contains phrase-level sentiment annotation. 
+  - [Sentihood](https://github.com/uclmr/jack/tree/master/data/sentihood) SentiHood is a dataset for the task of targeted aspect-based sentiment analysis, which contains 5215 sentences. *SentiHood: Targeted Aspect Based Sentiment Analysis Dataset for Urban Neighbourhoods, COLING 2016*.
+  - [SemEval-2014 Task 4](http://alt.qcri.org/semeval2014/task4/) This task is concerned with aspect based sentiment analysis (ABSA). Two domain-specific datasets for laptops and restaurants, consisting of over 6K sentences with fine-grained aspect-level human annotations have been provided for training.
 
 <span id='wordrepresentation'>Word Representation</span>
 --------------
