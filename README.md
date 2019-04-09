@@ -100,6 +100,7 @@ Table of Contents
   - [TriviaQA](http://nlp.cs.washington.edu/triviaqa/) TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions. This dataset is from the Wikipedia domain and Web domain.
   - [NewsQA](https://datasets.maluuba.com/NewsQA) NewsQA is a crowd-sourced machine reading comprehension dataset of 120K Q&A pairs. 
   - [HarvestingQA](https://github.com/xinyadu/harvestingQA/tree/master/dataset) This folder contains the one million paragraph-level QA-pairs dataset (split into Train, Dev and Test set) described in: *Harvesting Paragraph-Level Question-Answer Pairs from Wikipedia* (ACL 2018).
+  - [ProPara](http://data.allenai.org/propara/) 
 - <span id="SimilarQuestionIden">Duplicate/Similar Question Identification</span>
   - [Quora Question Pairs](http://qim.ec.quoracdn.net/quora_duplicate_questions.tsv) Quora Question Pairs dataset consists of over 400,000 lines of potential question duplicate pairs. [[Kaggle Version Format]](https://www.kaggle.com/c/quora-question-pairs/data)
   - [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar", from *Semi-supervised Question Retrieval with Gated Convolutions, NAACL2016*.
@@ -138,17 +139,18 @@ Table of Contents
   - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
 
 - Open Information Extraction
-  - [oie-benchmark](https://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.q
+  - [oie-benchmark](https://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.
   - [NeuralOpenIE](https://onedrive.live.com/?authkey=%21AHj1kHDE5TSS0e8&cid=C826C2D6F4C7D993&id=C826C2D6F4C7D993%213193&parId=C826C2D6F4C7D993%213189&action=locate) A training dataset from *Neural Open Information Extraction*, ACL 2018. here are a total of 36,247,584 hsentence, tuplei pairs extracted from Wikipedia dump using OPENIE4.
 
 - Entity Linking
   - [WikilinksNED](https://github.com/yotam-happy/NEDforNoisyText) A large-scale Named Entity Disambiguation dataset of text fragments from the web, which is significantly noisier and more challenging than existing news-based datasets.
+
 <span id="nli">Natural Language Inference</span>
 ----
   - [SNLI](https://nlp.stanford.edu/projects/snli/) The SNLI corpus (version 1.0) is a collection of 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral, supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE).
   - [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/) The Multi-Genre Natural Language Inference (MultiNLI) corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers **a range of genres** of spoken and written text, and supports a distinctive cross-genre generalization evaluation.
   - [Scitail](http://data.allenai.org/scitail/) The SciTail dataset is an entailment dataset created from multiple-choice science exams and web sentences. The domain makes this dataset different in nature from previous datasets, and it consists of more factual sentences rather than scene descriptions.
-  - [Duplicate/Similar Question Identification](#SimilarQuestionIden)
+  - [PAWS](https: //g.co/dataset/paws) A new dataset with 108,463 well-formed paraphrase and non-paraphrase pairs with high lexical overlap. *PAWS: Paraphrase Adversaries from Word Scrambling*
 
 Other
 ----
