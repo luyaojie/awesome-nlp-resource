@@ -3,12 +3,11 @@ Awesome Resource for NLP [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome
 
 Table of Contents
 ----
-
-- [Awesome Resource for NLP ![Awesome](https://github.com/sindresorhus/awesome)](#awesome-resource-for-nlp-awesomehttpsgithubcomsindresorhusawesome)
   - [Table of Contents](#table-of-contents)
   - [Dictionary](#dictionary)
   - [Lexicon](#lexicon)
   - [Parsing](#parsing)
+  - [Discourse](#discourse)
   - [Language Model](#language-model)
   - [Machine Translation](#machine-translation)
   - [Text Generation](#text-generation)
@@ -44,6 +43,12 @@ Table of Contents
   - [Universal Dependencies](http://universaldependencies.org) Universal Dependencies (UD) is a framework for cross-linguistically consistent grammatical annotation and an open community effort with over 200 contributors producing more than 100 treebanks in over 60 languages.
   - [Tweebank](https://github.com/Oneplus/Tweebank) Tweebank v2 is a collection of English tweets annotated in Universal Dependencies that can be exploited for the training of NLP systems to enhance their performance on social media texts.
   - [SemEval-2016 Task 9](https://github.com/HIT-SCIR/SemEval-2016) SemEval-2016 Task 9 (Chinese Semantic Dependency Parsing) Datasets.
+
+<span id='discourse'>Discourse</span>
+----
+  - [PDTB2.0](https://catalog.ldc.upenn.edu/LDC2008T05) PDTB, version 2.0. annotates 40600 discourse relations, distributed into the following five types: Explicit, Implicit, etc.
+  - [PDTB3.0](https://catalog.ldc.upenn.edu/LDC2019T05) In Version 3, an additional 13,000 tokens were annotated, certain pairwise annotations were standardized, new senses were included and the corpus was subject to a series of consistency checks. 
+  - [Back-translation Annotated Implicit Discourse Relations](http://www.sfb1102.uni-saarland.de/?page_id=2582) This resource contains annotated implicit discourse relation instances. These sentences are annotated automatically by the back-translation of parallel corpora. 
 
 <span id='lm'>Language Model</span>
 ----
@@ -92,6 +97,7 @@ Table of Contents
 - Word Representation with Context
   - [ELMo](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) Pre-trained contextual representations from large scale bidirectional language models provide large improvements for nearly all supervised NLP tasks.
   - [BERT](https://github.com/google-research/bert) **BERT**, or **B**idirectional **E**ncoder **R**epresentations from **T**ransformers, is a new method of pre-training language representations which obtains state-of-the-art results on a wide array of Natural Language Processing (NLP) tasks. (2018.10)
+  - [OpenGPT](https://github.com/openai/gpt-2) GPT-2 is a large transformer-based language model with 1.5 billion parameters, trained on a dataset of 8 million web pages. GPT-2 is trained with a simple objective: predict the next word, given all of the previous words within some text. 
 
 <span id="qa">Question Answer</span>
 ----
@@ -101,6 +107,11 @@ Table of Contents
   - [NewsQA](https://datasets.maluuba.com/NewsQA) NewsQA is a crowd-sourced machine reading comprehension dataset of 120K Q&A pairs. 
   - [HarvestingQA](https://github.com/xinyadu/harvestingQA/tree/master/dataset) This folder contains the one million paragraph-level QA-pairs dataset (split into Train, Dev and Test set) described in: *Harvesting Paragraph-Level Question-Answer Pairs from Wikipedia* (ACL 2018).
   - [ProPara](http://data.allenai.org/propara/) ProPara aims to promote the research in natural language understanding in the context of procedural text. This requires identifying the actions described in the paragraph and tracking state changes happening to the entities involved. 
+  - [MCScript](http://www.sfb1102.uni-saarland.de/?page_id=2582) MCScript is a new dataset for the task of machine comprehension focussing on commonsense knowledge. It comprises 13,939 questions on 2,119 narrative texts and covers 110 different everyday scenarios. Each text is annotated with one of 110 scenarios.
+  - [MCScript2.0](http://www.sfb1102.uni-saarland.de/?page_id=2582) MCScript2.0 is a machine comprehension corpus for the end-to-end evaluation of script knowledge. It contains approx. 20,000 questions on approx. 3,500 texts, crowdsourced based on a new collection process that results in challenging questions. Half of the questions cannot be answered from the reading texts, but require the use of commonsense and, in particular, script knowledge.
+  - [CommonsenseQA](https://www.tau-nlp.org/commonsenseqa) CommonsenseQA is a new multiple-choice question answering dataset that requires different types of commonsense knowledge to predict the correct answers . It contains 12,102 questions with one correct answer and four distractor answers.
+  - [NarrativeQA](https://github.com/deepmind/narrativeqa) 
+  - [HotpotQA](https://hotpotqa.github.io) HotpotQA is a question answering dataset featuring natural, multi-hop questions, with strong supervision for supporting facts to enable more explainable question answering systems. 
 - <span id="SimilarQuestionIden">Duplicate/Similar Question Identification</span>
   - [Quora Question Pairs](http://qim.ec.quoracdn.net/quora_duplicate_questions.tsv) Quora Question Pairs dataset consists of over 400,000 lines of potential question duplicate pairs. [[Kaggle Version Format]](https://www.kaggle.com/c/quora-question-pairs/data)
   - [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar", from *Semi-supervised Question Retrieval with Gated Convolutions, NAACL2016*.
@@ -131,9 +142,8 @@ Table of Contents
   - [SemEval-2015 Task 4](http://alt.qcri.org/semeval2015/task4/) TimeLine: Cross-Document Event Ordering. Given a set of documents and a target entity, the task is to build an event TimeLine related  to that entity, i.e. to detect, anchor in time and order the events involving the target entity.
   - [CaTeRS](http://cs.rochester.edu/nlp/rocstories/CaTeRS/) Causal and Temporal Relation Scheme (CaTeRS),which is unique in simultaneously capturing a com- prehensive set of temporal and causal relations between events. CaTeRS contains a total of 1,600 sentences in the context of 320 five-sentence short stories sampled from ROCStories corpus.
   - [RED](https://catalog.ldc.upenn.edu/LDC2016T23) Richer Event Description  consists of coreference, bridging and event-event relations (temporal, causal, subevent and reporting relations) annotations over 95 English newswire, discussion forum and narrative text documents, covering all events, times and non-eventive entities within each document.
-
-
-
+  - [InScript](http://www.sfb1102.uni-saarland.de/?page_id=2582) The InScript corpus contains a total of 1000 narrative texts crowdsourced via Amazon Mechanical Turk. It is annotated with script information in the form of scenario-specific events and participants labels.
+  
 - Event Coreference
   - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
 
