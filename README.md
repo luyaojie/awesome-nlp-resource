@@ -67,6 +67,7 @@ Table of Contents
 <span id='textgeneration'>Text Generation</span>
 ----
   - [ACL Title and Abstract Dataset](https://github.com/EagleW/ACL_titles_abstracts_dataset) This dataset gathers 10,874 title and abstract pairs from the ACL Anthology Network (until 2016).
+  - [Wikipedia Person and Animal Dataset](https://eaglew.github.io/patents/) This dataset gathers 428,748 person and 12,236 animal infobox with description based on Wikipedia dump (2018/04/01) and Wikidata (2018/04/12).
   - [WikiBio](https://github.com/DavidGrangier/wikipedia-biography-dataset) This dataset gathers 728,321 biographies from wikipedia. It aims at evaluating text generation algorithms. For each article, it provide the first paragraph and the infobox (both tokenized).
   - [Tencent Automatic Article Commenting](http://ai.tencent.com/upload/PapersUploads/article_commenting.tgz) A large-scale Chinese dataset with millions of real comments and a human-annotated subset characterizing the comments’ varying quality. This dataset consists of around 200K news articles and 4.5M human comments along with rich meta data for article categories and user votes of comments.
 
@@ -122,7 +123,7 @@ Table of Contents
 - Entity
   - [Shimaoka Fine-grained](http://www.cl.ecei.tohoku.ac.jp/~shimaoka/corpus.zip) This dataset contains two standard and publicly available datasets for Fine-grained Entity Classification, provided in a preprocessed tokenized format, details in *Neural architectures for ﬁne-grained entity type classiﬁcation, EACL 2017*.
   - [Ultra-Fine Entity Typing](https://homes.cs.washington.edu/~eunsol/_site/open_entity.html) A new entity typing task: given a sentence with an entity mention, the goal is to predict a set of free-form phrases (e.g. skyscraper, songwriter, or criminal) that describe appropriate types for the target entity.
-  - 
+  - [Nested Named Entity Corpus](https://github.com/nickyringland/nested_named_entities) A fine-grained, nested named entity dataset over the full Wall Street Journal portion of the Penn Treebank (PTB), which annotation comprises 279,795 mentions of 114 entity types with up to 6 layers of nesting.
 
 - Relation Extraction
   - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers. 
