@@ -128,6 +128,8 @@ Table of Contents
 - Relation Extraction
   - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers. 
   - [Datasets of Annotated Semantic Relationships](https://github.com/davidsbatista/Annotated-Semantic-Relationships-Datasets) **RECOMMEND** This repository contains annotated datasets which can be used to train supervised models for the task of semantic relationship extraction.
+  - [TACRED](https://nlp.stanford.edu/projects/tacred/) TACRED is a large-scale relation extraction dataset with 106,264 examples built over newswire and web text from the corpus used in the yearly TAC Knowledge Base Population (TAC KBP) challenges. Details in *Position-aware Attention and Supervised Data Improve Slot Filling, EMNLP 2017*.
+  - [FewRel](http://www.zhuhao.me/fewrel/) FewRel is a Few-shot Relation classification dataset, which features 70, 000 natural language sentences expressing 100 relations annotated by crowdworkers.
 
 - Event
   - [TempEval-3](https://www.cs.york.ac.uk/semeval-2013/task1/index.html) The TempEval-3 shared task aims to advance research on temporal information processing.
@@ -144,6 +146,8 @@ Table of Contents
   - [CaTeRS](http://cs.rochester.edu/nlp/rocstories/CaTeRS/) Causal and Temporal Relation Scheme (CaTeRS),which is unique in simultaneously capturing a com- prehensive set of temporal and causal relations between events. CaTeRS contains a total of 1,600 sentences in the context of 320 five-sentence short stories sampled from ROCStories corpus.
   - [RED](https://catalog.ldc.upenn.edu/LDC2016T23) Richer Event Description  consists of coreference, bridging and event-event relations (temporal, causal, subevent and reporting relations) annotations over 95 English newswire, discussion forum and narrative text documents, covering all events, times and non-eventive entities within each document.
   - [InScript](http://www.sfb1102.uni-saarland.de/?page_id=2582) The InScript corpus contains a total of 1000 narrative texts crowdsourced via Amazon Mechanical Turk. It is annotated with script information in the form of scenario-specific events and participants labels.
+  - [AutoLabelEvent](https://github.com/acl2017submission/event-data) The data of the work in *Automatically Labeled Data Generation for Large Scale Event Extraction, ACL2017*.
+  - [EventInFrameNet](https://github.com/liushulinle/events_in_framenet) The data of the work in *Leveraging FrameNet to Improve Automatic Event Detection, ACL2016*.
   
 - Event Coreference
   - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
