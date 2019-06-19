@@ -1,4 +1,4 @@
-Awesome Resource for NLP [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+Awesome Resource for NLP
 ====
 
 Table of Contents
@@ -16,6 +16,7 @@ Table of Contents
   - [Question Answer](#question-answer)
   - [Information Extraction](#information-extraction)
   - [Natural Language Inference](#natural-language-inference)
+  - [Commonsense](#commonsense)
   - [Other](#other)
   - [License](#license)
 
@@ -67,14 +68,16 @@ Table of Contents
 <span id='textgeneration'>Text Generation</span>
 ----
   - [ACL Title and Abstract Dataset](https://github.com/EagleW/ACL_titles_abstracts_dataset) This dataset gathers 10,874 title and abstract pairs from the ACL Anthology Network (until 2016).
-  - [Wikipedia Person and Animal Dataset](https://eaglew.github.io/patents/) This dataset gathers 428,748 person and 12,236 animal infobox with description based on Wikipedia dump (2018/04/01) and Wikidata (2018/04/12).
-  - [WikiBio](https://github.com/DavidGrangier/wikipedia-biography-dataset) This dataset gathers 728,321 biographies from wikipedia. It aims at evaluating text generation algorithms. For each article, it provide the first paragraph and the infobox (both tokenized).
   - [Tencent Automatic Article Commenting](http://ai.tencent.com/upload/PapersUploads/article_commenting.tgz) A large-scale Chinese dataset with millions of real comments and a human-annotated subset characterizing the comments’ varying quality. This dataset consists of around 200K news articles and 4.5M human comments along with rich meta data for article categories and user votes of comments.
+  - Data-to-Text
+    - [Wikipedia Person and Animal Dataset](https://eaglew.github.io/patents/) This dataset gathers 428,748 person and 12,236 animal infobox with description based on Wikipedia dump (2018/04/01) and Wikidata (2018/04/12).
+    - [WikiBio](https://github.com/DavidGrangier/wikipedia-biography-dataset) This dataset gathers 728,321 biographies from wikipedia. It aims at evaluating text generation algorithms. For each article, it provide the first paragraph and the infobox (both tokenized).
+    - [Rotowire](https://github.com/harvardnlp/boxscore-data) This dataset consists of (human-written) NBA basketball game summaries aligned with their corresponding box- and line-scores. 
+    - [MLB](https://github.com/ratishsp/data2text-entity-py) The MLB dataset will also be uploaded soon. Details in *Data-to-text Generation with Entity Modeling, ACL 2019*
 
 <span id='sentiment'>Sentiment</span>
 ---------
   - [MPQA 3.0](http://mpqa.cs.pitt.edu/corpora/mpqa_corpus/) This corpus contains news articles and other text documents manually annotated for opinions and other private states (i.e., beliefs, emotions, sentiments, speculations, etc.). The main changes in this version of the MPQA corpus are the additions of new eTarget (entity/event) annotations.
-  - [SenticNet](http://sentic.net) SenticNet provides a set of semantics, sentics, and polarity associated with 100,000 natural language concepts. SenticNet consists of a set of tools and techniques for sentiment analysis combining commonsense reasoning, psychology, linguistics, and machine learning. 
   - [SentiWordNet](http://sentiwordnet.isti.cnr.it) SentiWordNet is a lexical resource for opinion mining. SentiWordNet assigns to each synset of WordNet three sentiment scores: positivity, negativity, objectivity.
   - [NRC Word-Emotion Association Lexicon ](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) The NRC Emotion Lexicon is a list of English words and their associations with eight basic emotions (anger, fear, anticipation, trust, surprise, sadness, joy, and disgust) and two sentiments (negative and positive). 
   - [Stanford Sentiment TreeBank](https://nlp.stanford.edu/sentiment/index.html) SST is the dataset of the paper: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts Conference on Empirical Methods in Natural Language Processing (EMNLP 2013)
@@ -124,6 +127,7 @@ Table of Contents
   - [Shimaoka Fine-grained](http://www.cl.ecei.tohoku.ac.jp/~shimaoka/corpus.zip) This dataset contains two standard and publicly available datasets for Fine-grained Entity Classification, provided in a preprocessed tokenized format, details in *Neural architectures for ﬁne-grained entity type classiﬁcation, EACL 2017*.
   - [Ultra-Fine Entity Typing](https://homes.cs.washington.edu/~eunsol/_site/open_entity.html) A new entity typing task: given a sentence with an entity mention, the goal is to predict a set of free-form phrases (e.g. skyscraper, songwriter, or criminal) that describe appropriate types for the target entity.
   - [Nested Named Entity Corpus](https://github.com/nickyringland/nested_named_entities) A fine-grained, nested named entity dataset over the full Wall Street Journal portion of the Penn Treebank (PTB), which annotation comprises 279,795 mentions of 114 entity types with up to 6 layers of nesting.
+  - [Named Entity Recognition on Code-switched Data](https://code-switching.github.io/2018/#shared-task-id) Code-switching (CS) is the phenomenon by which multilingual speakers switch back and forth between their common languages in written or spoken communication. It contains the training and development data for tuning and testing systems in the following language pairs: Spanish-English (SPA-ENG), and Modern Standard Arabic-Egyptian (MSA-EGY).
 
 - Relation Extraction
   - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers. 
@@ -164,7 +168,15 @@ Table of Contents
   - [SNLI](https://nlp.stanford.edu/projects/snli/) The SNLI corpus (version 1.0) is a collection of 570k human-written English sentence pairs manually labeled for balanced classification with the labels entailment, contradiction, and neutral, supporting the task of natural language inference (NLI), also known as recognizing textual entailment (RTE).
   - [MultiNLI](https://www.nyu.edu/projects/bowman/multinli/) The Multi-Genre Natural Language Inference (MultiNLI) corpus is a crowd-sourced collection of 433k sentence pairs annotated with textual entailment information. The corpus is modeled on the SNLI corpus, but differs in that covers **a range of genres** of spoken and written text, and supports a distinctive cross-genre generalization evaluation.
   - [Scitail](http://data.allenai.org/scitail/) The SciTail dataset is an entailment dataset created from multiple-choice science exams and web sentences. The domain makes this dataset different in nature from previous datasets, and it consists of more factual sentences rather than scene descriptions.
-  - [PAWS](https: //g.co/dataset/paws) A new dataset with 108,463 well-formed paraphrase and non-paraphrase pairs with high lexical overlap. *PAWS: Paraphrase Adversaries from Word Scrambling*
+  - [PAWS](https://g.co/dataset/paws) A new dataset with 108,463 well-formed paraphrase and non-paraphrase pairs with high lexical overlap. *PAWS: Paraphrase Adversaries from Word Scrambling*
+
+<span id="commonsense">Commonsense</span>
+----
+  - [ConceptNet](http://conceptnet.io) ConceptNet is a multilingual knowledge base, representing words and phrases that people use and the common-sense relationships between them.
+    - [Commonsense Knowledge Representation](https://ttic.uchicago.edu/~kgimpel/commonsense.html) ConceptNet-related resources. Details in *Commonsense Knowledge Base Completion. Proc. of ACL, 2016*
+  - [ATOMIC](https://homes.cs.washington.edu/~msap/atomic/), an atlas of everyday commonsense reasoning, organized through 877k textual descriptions of inferential knowledge. ATOMIC focuses on inferential knowledge organized as typed if-then relations with variables.
+  - [SenticNet](http://sentic.net) SenticNet provides a set of semantics, sentics, and polarity associated with 100,000 natural language concepts. SenticNet consists of a set of tools and techniques for sentiment analysis combining commonsense reasoning, psychology, linguistics, and machine learning. 
+
 
 Other
 ----
