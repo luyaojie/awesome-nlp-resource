@@ -137,8 +137,6 @@ Table of Contents
 
 - Event
   - [TempEval-3](https://www.cs.york.ac.uk/semeval-2013/task1/index.html) The TempEval-3 shared task aims to advance research on temporal information processing.
-  - [UW Event Factuality Dataset](https://bitbucket.org/kentonl/factuality-data/src) This dataset contains annotations of text from the TempEval-3 corpus with factuality assessment labels.
-  - [FactBank 1.0](https://catalog.ldc.upenn.edu/ldc2009t23) FactBank 1.0, consists of 208 documents (over 77,000 tokens) from newswire and broadcast news reports in which event mentions are annotated with their degree of factuality,
   - [ACE 2005 Training Data](http://catalog.ldc.upenn.edu/LDC2006T06) The corpus consists of data of various types annotated for entities, relations and events was created by Linguistic Data Consortium with support from the ACE Program, across three languages: English, Chinese, Arabic.
   - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
   - [TAC-KBP](https://tac.nist.gov) Event Evaluation is a sub-track in TAC Knowledge Base Population (KBP), which started from 2015. The goal of TAC Knowledge Base Population (KBP) is to develop and evaluate technologies for populating knowledge bases (KBs) from unstructured text.
@@ -152,9 +150,14 @@ Table of Contents
   - [InScript](http://www.sfb1102.uni-saarland.de/?page_id=2582) The InScript corpus contains a total of 1000 narrative texts crowdsourced via Amazon Mechanical Turk. It is annotated with script information in the form of scenario-specific events and participants labels.
   - [AutoLabelEvent](https://github.com/acl2017submission/event-data) The data of the work in *Automatically Labeled Data Generation for Large Scale Event Extraction, ACL2017*.
   - [EventInFrameNet](https://github.com/liushulinle/events_in_framenet) The data of the work in *Leveraging FrameNet to Improve Automatic Event Detection, ACL2016*.
-  
-- Event Coreference
-  - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
+  - [MEANTIME](http://www.newsreader-project.eu/results/data/wikinews/) The MEANTIME Corpus (the NewsReader Multilingual Event ANd TIME Corpus) consists of a total of 480 news articles: 120 English Wikinews articles on four topics and their translations in Spanish, Italian, and Dutch. It has been annotated manually at multiple levels, including entities, events, temporal information, semantic roles, and intra-document and cross-document event and entity coreference.
+  - Event Factuality
+    - [UW Event Factuality Dataset](https://bitbucket.org/kentonl/factuality-data/src) This dataset contains annotations of text from the TempEval-3 corpus with factuality assessment labels.
+    - [FactBank 1.0](https://catalog.ldc.upenn.edu/ldc2009t23) FactBank 1.0, consists of 208 documents (over 77,000 tokens) from newswire and broadcast news reports in which event mentions are annotated with their degree of factuality.
+    - [CommitmentBank](https://github.com/mcdm/CommitmentBank) The CommitmentBank is a corpus of 1,200 naturally occurring discourses whose final sentence contains a clause-embedding predicate under an entailment canceling operator (question, modal, negation, antecedent of conditional).
+    - [UDS](http://decomp.io/projects/factuality/) Universal Decompositional Semantics It Happened Dataset, covers the entirety of the English Universal Dependencies v1.2 (EUD1.2) treebank, a large event factuality dataset.
+  - Event Coreference
+    - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
 
 - Open Information Extraction
   - [oie-benchmark](https://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.
@@ -186,6 +189,7 @@ Other
   - [CoNLL 2010 Uncertainty Detection](http://rgai.inf.u-szeged.hu/conll2010st/tasks.html) The aim of this task is to identify sentences in texts which contain unreliable or uncertain information. Training Data contains biological abstracts and full articles from the **BioScope** (biomedical domain) corpus and paragraphs from **Wikipedia** possibly containing weasel information.
   - [Automatic Academic Paper Rating](https://github.com/lancopku/AAPR) A dataset for automatic academic paper rating (AAPR), which automatically determine whether to accept academic papers. The dataset consists of 19,218 academic papers by collecting data on academic pa- pers in the field of artificial intelligence from the arxiv.
   - [COLING 2018 automatic identification of verbal MWE](https://gitlab.com/parseme/sharedtask-data/tree/master/1.1) Corpora were annotated by human annotators with occurrences of verbal multiword expressions (VMWEs) according to common annotation guidelines. For example, "He **picked** one **up**."
+  - [PubMed 200k RCT](https://github.com/Franck-Dernoncourt/pubmed-rct) PubMed 200k RCT is new dataset based on PubMed for sequential sentence classification. The dataset consists of approximately 200,000 abstracts of randomized controlled trials, totaling 2.3 million sentences.
 
 -----
 License
