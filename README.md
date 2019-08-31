@@ -87,6 +87,7 @@ Table of Contents
 
 <span id='wordrepresentation'>Word Representation</span>
 --------------
+
 - Word Embedding
   - [Google News Word2vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) The model contains 300-dimensional vectors for 3 million words and phrases which trained on part of Google News dataset (about 100 billion words).
   - [GloVe Pre-trained](https://nlp.stanford.edu/projects/glove/) Pre-trained word vectors using GloVe. Wikipedia + Gigaword 5, Common Crawl, Twitter.
@@ -105,6 +106,7 @@ Table of Contents
 
 <span id="qa">Question Answer</span>
 ----
+
 - Machine Reading Comprehension
   - [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) Stanford Question Answering Dataset (SQuAD) is a new reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage.
   - [CMRC2018](https://github.com/ymcui/cmrc2018) CMRC2018 is released by the Second Evaluation Workshop on Chinese Machine Reading Comprehension. The dataset is composed by near 20,000 real questions annotated by hu- man on Wikipedia paragraphs.
@@ -158,6 +160,7 @@ Table of Contents
     - [FactBank 1.0](https://catalog.ldc.upenn.edu/ldc2009t23) FactBank 1.0, consists of 208 documents (over 77,000 tokens) from newswire and broadcast news reports in which event mentions are annotated with their degree of factuality.
     - [CommitmentBank](https://github.com/mcdm/CommitmentBank) The CommitmentBank is a corpus of 1,200 naturally occurring discourses whose final sentence contains a clause-embedding predicate under an entailment canceling operator (question, modal, negation, antecedent of conditional).
     - [UDS](http://decomp.io/projects/factuality/) Universal Decompositional Semantics It Happened Dataset, covers the entirety of the English Universal Dependencies v1.2 (EUD1.2) treebank, a large event factuality dataset.
+    - [DLEF](https://github.com/qz011/dlef/tree/master/dlef_corpus) A document level event factuality (DLEF) dataset, which includes the source (English and Chinese), detailed guidelines for both document- and sentence-level event factuality.
   - Event Coreference
     - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
 
