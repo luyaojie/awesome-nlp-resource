@@ -67,7 +67,6 @@ Table of Contents
 
 <span id='textgeneration'>Text Generation</span>
 ----
-  - [ACL Title and Abstract Dataset](https://github.com/EagleW/ACL_titles_abstracts_dataset) This dataset gathers 10,874 title and abstract pairs from the ACL Anthology Network (until 2016).
   - [Tencent Automatic Article Commenting](http://ai.tencent.com/upload/PapersUploads/article_commenting.tgz) A large-scale Chinese dataset with millions of real comments and a human-annotated subset characterizing the comments’ varying quality. This dataset consists of around 200K news articles and 4.5M human comments along with rich meta data for article categories and user votes of comments.
   - Data-to-Text
     - [Wikipedia Person and Animal Dataset](https://eaglew.github.io/patents/) This dataset gathers 428,748 person and 12,236 animal infobox with description based on Wikipedia dump (2018/04/01) and Wikidata (2018/04/12).
@@ -194,9 +193,14 @@ Other
   - [QA-SRL 2.0](https://github.com/uwnlp/qasrl-bank) This repository is the reference point for QA-SRL Bank 2.0, the dataset described in the paper Large-Scale QA-SRL Parsing, ACL 2018. 
   - [NEWSROOM](https://summari.es) CORNELL NEWSROOM is a large dataset for training and evaluating summarization systems. It contains 1.3 million articles and summaries written by authors and editors in the newsrooms of 38 major publications.
   - [CoNLL 2010 Uncertainty Detection](http://rgai.inf.u-szeged.hu/conll2010st/tasks.html) The aim of this task is to identify sentences in texts which contain unreliable or uncertain information. Training Data contains biological abstracts and full articles from the **BioScope** (biomedical domain) corpus and paragraphs from **Wikipedia** possibly containing weasel information.
-  - [Automatic Academic Paper Rating](https://github.com/lancopku/AAPR) A dataset for automatic academic paper rating (AAPR), which automatically determine whether to accept academic papers. The dataset consists of 19,218 academic papers by collecting data on academic pa- pers in the field of artificial intelligence from the arxiv.
   - [COLING 2018 automatic identification of verbal MWE](https://gitlab.com/parseme/sharedtask-data/tree/master/1.1) Corpora were annotated by human annotators with occurrences of verbal multiword expressions (VMWEs) according to common annotation guidelines. For example, "He **picked** one **up**."
+  
+- Scientific NLP
   - [PubMed 200k RCT](https://github.com/Franck-Dernoncourt/pubmed-rct) PubMed 200k RCT is new dataset based on PubMed for sequential sentence classification. The dataset consists of approximately 200,000 abstracts of randomized controlled trials, totaling 2.3 million sentences.
+  - [Automatic Academic Paper Rating](https://github.com/lancopku/AAPR) A dataset for automatic academic paper rating (AAPR), which automatically determine whether to accept academic papers. The dataset consists of 19,218 academic papers by collecting data on academic pa- pers in the field of artificial intelligence from the arxiv.
+  - [ACL Title and Abstract Dataset](https://github.com/EagleW/ACL_titles_abstracts_dataset) This dataset gathers 10,874 title and abstract pairs from the ACL Anthology Network (until 2016).
+  - [SCIERC](http://nlp.cs.washington.edu/sciIE/) A dataset includes annotations for entities, relations, and coreference clusters in scientific articles.
+  - [SciBERT](https://github.com/allenai/scibert) SciBERT is a BERT model trained on scientific text. A broad set of scientific nlp datasets under the data/ directory across ner, parsring, pico and text classification.
 
 -----
 License
