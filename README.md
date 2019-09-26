@@ -11,6 +11,7 @@ Table of Contents
   - [Language Model](#language-model)
   - [Machine Translation](#machine-translation)
   - [Text Generation](#text-generation)
+  - [Text Classification](#text_classification)
   - [Sentiment](#sentiment)
   - [Word Representation](#word-representation)
   - [Question Answer](#question-answer)
@@ -68,11 +69,20 @@ Table of Contents
 <span id='textgeneration'>Text Generation</span>
 ----
   - [Tencent Automatic Article Commenting](http://ai.tencent.com/upload/PapersUploads/article_commenting.tgz) A large-scale Chinese dataset with millions of real comments and a human-annotated subset characterizing the comments’ varying quality. This dataset consists of around 200K news articles and 4.5M human comments along with rich meta data for article categories and user votes of comments.
+  - Summarization
+    - [BigPatent](https://evasharma.github.io/bigpatent) A summarization dataset consists of 1.3 million records of U.S. patent documents along with human written abstractive summaries.
   - Data-to-Text
     - [Wikipedia Person and Animal Dataset](https://eaglew.github.io/patents/) This dataset gathers 428,748 person and 12,236 animal infobox with description based on Wikipedia dump (2018/04/01) and Wikidata (2018/04/12).
     - [WikiBio](https://github.com/DavidGrangier/wikipedia-biography-dataset) This dataset gathers 728,321 biographies from wikipedia. It aims at evaluating text generation algorithms. For each article, it provide the first paragraph and the infobox (both tokenized).
     - [Rotowire](https://github.com/harvardnlp/boxscore-data) This dataset consists of (human-written) NBA basketball game summaries aligned with their corresponding box- and line-scores. 
-    - [MLB](https://github.com/ratishsp/data2text-entity-py) The MLB dataset will also be uploaded soon. Details in *Data-to-text Generation with Entity Modeling, ACL 2019*
+    - [MLB](https://github.com/ratishsp/data2text-entity-py) Details in *Data-to-text Generation with Entity Modeling, ACL 2019*
+
+<span id='text_classification'>Text Classification</span>
+---------
+  - [20Newsgroups](http://qwone.com/~jason/20Newsgroups) The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups.
+  - [AG's corpus of news articles](https://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html) AG is a collection of more than 1 million news articles.
+  - [Yahoo-Answers-Topic-Classification](https://github.com/LC-John/Yahoo-Answers-Topic-Classification-Dataset) This corpus contains 4,483,032 questions and their corresponding answers from Yahoo! Answers service.
+  - [Google-Snippets](http://jwebpro.sourceforge.net/data-web-snippets.tar.gz) This dataset contains the web search results related to 8 different domains such as business, computers and engineering.
 
 <span id='sentiment'>Sentiment</span>
 ---------
@@ -201,6 +211,11 @@ Other
   - [ACL Title and Abstract Dataset](https://github.com/EagleW/ACL_titles_abstracts_dataset) This dataset gathers 10,874 title and abstract pairs from the ACL Anthology Network (until 2016).
   - [SCIERC](http://nlp.cs.washington.edu/sciIE/) A dataset includes annotations for entities, relations, and coreference clusters in scientific articles.
   - [SciBERT](https://github.com/allenai/scibert) SciBERT is a BERT model trained on scientific text. A broad set of scientific nlp datasets under the data/ directory across ner, parsring, pico and text classification.
+  - [5AbstractsGroup](https://github.com/qianliu0708/5AbstractsGroup) The dataset contains academic papers from five different domains collected from the Web of Science, namely business, artifical intelligence, sociology, transport and law.
+
+<span>Thanks</span>
+----
+Zied Haj-Yahia, Adrien Sieg, and Léa A. Deleris. Towards Unsupervised Text Classiﬁcation Leveraging Experts and Word Embeddings. ACL 2019.
 
 -----
 License
