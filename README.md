@@ -141,7 +141,9 @@ Table of Contents
   - [Ultra-Fine Entity Typing](https://homes.cs.washington.edu/~eunsol/_site/open_entity.html) A new entity typing task: given a sentence with an entity mention, the goal is to predict a set of free-form phrases (e.g. skyscraper, songwriter, or criminal) that describe appropriate types for the target entity.
   - [Nested Named Entity Corpus](https://github.com/nickyringland/nested_named_entities) A fine-grained, nested named entity dataset over the full Wall Street Journal portion of the Penn Treebank (PTB), which annotation comprises 279,795 mentions of 114 entity types with up to 6 layers of nesting.
   - [Named Entity Recognition on Code-switched Data](https://code-switching.github.io/2018/#shared-task-id) Code-switching (CS) is the phenomenon by which multilingual speakers switch back and forth between their common languages in written or spoken communication. It contains the training and development data for tuning and testing systems in the following language pairs: Spanish-English (SPA-ENG), and Modern Standard Arabic-Egyptian (MSA-EGY).
-
+  - [MIT Movie Corpus](https://groups.csail.mit.edu/sls/downloads/) The MIT Movie Corpus is a semantically tagged training and test corpus in BIO format. The eng corpus are simple queries, and the trivia10k13 corpus are more complex queries.
+  - [MIT Restaurant Corpus](https://groups.csail.mit.edu/sls/downloads/) The MIT Restaurant Corpus is a semantically tagged training and test corpus in BIO format.
+  
 - Relation Extraction
   - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers. 
   - [Datasets of Annotated Semantic Relationships](https://github.com/davidsbatista/Annotated-Semantic-Relationships-Datasets) **RECOMMEND** This repository contains annotated datasets which can be used to train supervised models for the task of semantic relationship extraction.
@@ -212,10 +214,8 @@ Other
   - [SCIERC](http://nlp.cs.washington.edu/sciIE/) A dataset includes annotations for entities, relations, and coreference clusters in scientific articles.
   - [SciBERT](https://github.com/allenai/scibert) SciBERT is a BERT model trained on scientific text. A broad set of scientific nlp datasets under the data/ directory across ner, parsring, pico and text classification.
   - [5AbstractsGroup](https://github.com/qianliu0708/5AbstractsGroup) The dataset contains academic papers from five different domains collected from the Web of Science, namely business, artifical intelligence, sociology, transport and law.
-
-<span>Thanks</span>
-----
-Zied Haj-Yahia, Adrien Sieg, and Léa A. Deleris. Towards Unsupervised Text Classiﬁcation Leveraging Experts and Word Embeddings. ACL 2019.
+  - [SciCite](https://github.com/allenai/scicite) A new large dataset of citation intent from *Structural Scaffolds for Citation Intent Classification in Scientific Publications*
+  - [ACL-ARC](https://github.com/allenai/scicite) A dataset of citation intents in the computational linguistics domain (ACL-ARC) introduced by *Measuring the Evolution of a Scientific Field through Citation Frames*. 
 
 -----
 License
