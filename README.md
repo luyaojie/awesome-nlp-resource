@@ -19,7 +19,7 @@ Table of Contents
   - [Natural Language Inference](#natural-language-inference)
   - [Commonsense](#commonsense)
   - [Other](#other)
-  - [License](#license)
+  - [Contribute](#contribute)
 
 <span id='dictionary'>Dictionary</span>
 ----
@@ -83,6 +83,7 @@ Table of Contents
   - [AG's corpus of news articles](https://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html) AG is a collection of more than 1 million news articles.
   - [Yahoo-Answers-Topic-Classification](https://github.com/LC-John/Yahoo-Answers-Topic-Classification-Dataset) This corpus contains 4,483,032 questions and their corresponding answers from Yahoo! Answers service.
   - [Google-Snippets](http://jwebpro.sourceforge.net/data-web-snippets.tar.gz) This dataset contains the web search results related to 8 different domains such as business, computers and engineering.
+  - [BenchmarkingZeroShot](https://github.com/yinwenpeng/BenchmarkingZeroShot) This repository contains the code and the data for the EMNLP2019 paper "Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach".
 
 <span id='sentiment'>Sentiment</span>
 ---------
@@ -96,7 +97,6 @@ Table of Contents
 
 <span id='wordrepresentation'>Word Representation</span>
 --------------
-
 - Word Embedding
   - [Google News Word2vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) The model contains 300-dimensional vectors for 3 million words and phrases which trained on part of Google News dataset (about 100 billion words).
   - [GloVe Pre-trained](https://nlp.stanford.edu/projects/glove/) Pre-trained word vectors using GloVe. Wikipedia + Gigaword 5, Common Crawl, Twitter.
@@ -115,7 +115,6 @@ Table of Contents
 
 <span id="qa">Question Answer</span>
 ----
-
 - Machine Reading Comprehension
   - [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) Stanford Question Answering Dataset (SQuAD) is a new reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage.
   - [CMRC2018](https://github.com/ymcui/cmrc2018) CMRC2018 is released by the Second Evaluation Workshop on Chinese Machine Reading Comprehension. The dataset is composed by near 20,000 real questions annotated by hu- man on Wikipedia paragraphs.
@@ -127,7 +126,7 @@ Table of Contents
   - [MCScript](http://www.sfb1102.uni-saarland.de/?page_id=2582) MCScript is a new dataset for the task of machine comprehension focussing on commonsense knowledge. It comprises 13,939 questions on 2,119 narrative texts and covers 110 different everyday scenarios. Each text is annotated with one of 110 scenarios.
   - [MCScript2.0](http://www.sfb1102.uni-saarland.de/?page_id=2582) MCScript2.0 is a machine comprehension corpus for the end-to-end evaluation of script knowledge. It contains approx. 20,000 questions on approx. 3,500 texts, crowdsourced based on a new collection process that results in challenging questions. Half of the questions cannot be answered from the reading texts, but require the use of commonsense and, in particular, script knowledge.
   - [CommonsenseQA](https://www.tau-nlp.org/commonsenseqa) CommonsenseQA is a new multiple-choice question answering dataset that requires different types of commonsense knowledge to predict the correct answers . It contains 12,102 questions with one correct answer and four distractor answers.
-  - [NarrativeQA](https://github.com/deepmind/narrativeqa) 
+  - [NarrativeQA](https://github.com/deepmind/narrativeqa) NarrativeQA includes the list of documents with Wikipedia summaries, links to full stories, and questions and answers. For a detailed description of this see the paper "The NarrativeQA Reading Comprehension Challenge".
   - [HotpotQA](https://hotpotqa.github.io) HotpotQA is a question answering dataset featuring natural, multi-hop questions, with strong supervision for supporting facts to enable more explainable question answering systems.
 - <span id="SimilarQuestionIden">Duplicate/Similar Question Identification</span>
   - [Quora Question Pairs](http://qim.ec.quoracdn.net/quora_duplicate_questions.tsv) Quora Question Pairs dataset consists of over 400,000 lines of potential question duplicate pairs. [[Kaggle Version Format]](https://www.kaggle.com/c/quora-question-pairs/data)
@@ -143,31 +142,32 @@ Table of Contents
   - [Named Entity Recognition on Code-switched Data](https://code-switching.github.io/2018/#shared-task-id) Code-switching (CS) is the phenomenon by which multilingual speakers switch back and forth between their common languages in written or spoken communication. It contains the training and development data for tuning and testing systems in the following language pairs: Spanish-English (SPA-ENG), and Modern Standard Arabic-Egyptian (MSA-EGY).
   - [MIT Movie Corpus](https://groups.csail.mit.edu/sls/downloads/) The MIT Movie Corpus is a semantically tagged training and test corpus in BIO format. The eng corpus are simple queries, and the trivia10k13 corpus are more complex queries.
   - [MIT Restaurant Corpus](https://groups.csail.mit.edu/sls/downloads/) The MIT Restaurant Corpus is a semantically tagged training and test corpus in BIO format.
-  
 - Relation Extraction
   - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers. 
   - [Datasets of Annotated Semantic Relationships](https://github.com/davidsbatista/Annotated-Semantic-Relationships-Datasets) **RECOMMEND** This repository contains annotated datasets which can be used to train supervised models for the task of semantic relationship extraction.
   - [TACRED](https://nlp.stanford.edu/projects/tacred/) TACRED is a large-scale relation extraction dataset with 106,264 examples built over newswire and web text from the corpus used in the yearly TAC Knowledge Base Population (TAC KBP) challenges. Details in *Position-aware Attention and Supervised Data Improve Slot Filling, EMNLP 2017*.
   - [FewRel](http://www.zhuhao.me/fewrel/) FewRel is a Few-shot Relation classification dataset, which features 70, 000 natural language sentences expressing 100 relations annotated by crowdworkers.
-
 - Event
-  - [TempEval-3](https://www.cs.york.ac.uk/semeval-2013/task1/index.html) The TempEval-3 shared task aims to advance research on temporal information processing.
   - [ACE 2005 Training Data](http://catalog.ldc.upenn.edu/LDC2006T06) The corpus consists of data of various types annotated for entities, relations and events was created by Linguistic Data Consortium with support from the ACE Program, across three languages: English, Chinese, Arabic.
   - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
   - [TAC-KBP](https://tac.nist.gov) Event Evaluation is a sub-track in TAC Knowledge Base Population (KBP), which started from 2015. The goal of TAC Knowledge Base Population (KBP) is to develop and evaluate technologies for populating knowledge bases (KBs) from unstructured text.
   - [Narrative Cloze Evaluation Data](https://www.usna.edu/Users/cs/nchamber/data/chains)  Evaluate understanding of a script by predicting the next event given several context events. Details in *Unsupervised Learning of Narrative Schemas and their Participants, ACL 2009*.
   - [Event Tensor](https://github.com/StonyBrookNLP/event-tensors/tree/master/data) A evaluation dataset about Schema Generation/Sentence Similarity/Narrative Cloze, which is proposed by *Event Representations with Tensor-based Compositions, AAAI 2018.*. 
-  - [TimeBank](https://catalog.ldc.upenn.edu/LDC2006T08) TimeBank 1.2 contains 183 news articles that have been annotated with temporal information, adding events, times and temporal links(TLINKs) between events and times.
-  - [TimeBank-EventTime Corpus](https://www.ukp.tu-darmstadt.de/data/timeline-generation/temporal-anchoring-of-events/) This dataset is a subset of the TimeBank Corpus with a new annotation scheme to anchor events in time. [Detailed description](https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/publikationen/2016/2016_Reimers_Temporal_Anchoring_of_Events.pdf).
   - [SemEval-2015 Task 4](http://alt.qcri.org/semeval2015/task4/) TimeLine: Cross-Document Event Ordering. Given a set of documents and a target entity, the task is to build an event TimeLine related  to that entity, i.e. to detect, anchor in time and order the events involving the target entity.
-  - [CaTeRS](http://cs.rochester.edu/nlp/rocstories/CaTeRS/) Causal and Temporal Relation Scheme (CaTeRS),which is unique in simultaneously capturing a com- prehensive set of temporal and causal relations between events. CaTeRS contains a total of 1,600 sentences in the context of 320 five-sentence short stories sampled from ROCStories corpus.
   - [RED](https://catalog.ldc.upenn.edu/LDC2016T23) Richer Event Description  consists of coreference, bridging and event-event relations (temporal, causal, subevent and reporting relations) annotations over 95 English newswire, discussion forum and narrative text documents, covering all events, times and non-eventive entities within each document.
   - [InScript](http://www.sfb1102.uni-saarland.de/?page_id=2582) The InScript corpus contains a total of 1000 narrative texts crowdsourced via Amazon Mechanical Turk. It is annotated with script information in the form of scenario-specific events and participants labels.
   - [AutoLabelEvent](https://github.com/acl2017submission/event-data) The data of the work in *Automatically Labeled Data Generation for Large Scale Event Extraction, ACL2017*.
   - [EventInFrameNet](https://github.com/liushulinle/events_in_framenet) The data of the work in *Leveraging FrameNet to Improve Automatic Event Detection, ACL2016*.
   - [MEANTIME](http://www.newsreader-project.eu/results/data/wikinews/) The MEANTIME Corpus (the NewsReader Multilingual Event ANd TIME Corpus) consists of a total of 480 news articles: 120 English Wikinews articles on four topics and their translations in Spanish, Italian, and Dutch. It has been annotated manually at multiple levels, including entities, events, temporal information, semantic roles, and intra-document and cross-document event and entity coreference.
-  - [EventStoryLine](https://github.com/tommasoc80/EventStoryLine) A benchmark dataset for the temporal and causal relation detection.
-  - [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) Causal-TimeBank is the TimeBank corpus taken from TempEval-3 task, which puts new information about causality in the form of C-SIGNALs and CLINKs annotation. 6,811 EVENTs (only instantiated events by MAKEINSTANCE tag of TimeML), 5,118 TLINKs (temporal links), 171 CSIGNALs (causal signals), 318 CLINKs (causal links).
+  - Event Temporal and Causal Relations
+    - [CaTeRS](http://cs.rochester.edu/nlp/rocstories/CaTeRS/) Causal and Temporal Relation Scheme (CaTeRS),which is unique in simultaneously capturing a com- prehensive set of temporal and causal relations between events. CaTeRS contains a total of 1,600 sentences in the context of 320 five-sentence short stories sampled from ROCStories corpus.
+    - [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) Causal-TimeBank is the TimeBank corpus taken from TempEval-3 task, which puts new information about causality in the form of C-SIGNALs and CLINKs annotation. 6,811 EVENTs (only instantiated events by MAKEINSTANCE tag of TimeML), 5,118 TLINKs (temporal links), 171 CSIGNALs (causal signals), 318 CLINKs (causal links).
+    - [EventCausalityData](https://cogcomp.seas.upenn.edu/page/resource_view/27) The EventCausality dataset provides relatively dense causal annotations on 25 newswire articles collected from CNN in 2010.
+    - [EventStoryLine](https://github.com/tommasoc80/EventStoryLine) A benchmark dataset for the temporal and causal relation detection.
+    - [TempEval-3](https://www.cs.york.ac.uk/semeval-2013/task1/index.html) The TempEval-3 shared task aims to advance research on temporal information processing.
+    - [TemporalCausalReasoning](https://github.com/qiangning/TemporalCausalReasoning) A dataset with both temporal and causal relations annotation. The temporal relations were annotated based on the scheme proposed in "A Multi-Axis Annotation Scheme for Event Temporal Relations" using CrowdFlower; the causal relations were mapped from the "EventCausalityData".
+    - [TimeBank](https://catalog.ldc.upenn.edu/LDC2006T08) TimeBank 1.2 contains 183 news articles that have been annotated with temporal information, adding events, times and temporal links(TLINKs) between events and times.
+    - [TimeBank-EventTime Corpus](https://www.ukp.tu-darmstadt.de/data/timeline-generation/temporal-anchoring-of-events/) This dataset is a subset of the TimeBank Corpus with a new annotation scheme to anchor events in time. [Detailed description](https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/publikationen/2016/2016_Reimers_Temporal_Anchoring_of_Events.pdf).
   - Event Factuality
     - [UW Event Factuality Dataset](https://bitbucket.org/kentonl/factuality-data/src) This dataset contains annotations of text from the TempEval-3 corpus with factuality assessment labels.
     - [FactBank 1.0](https://catalog.ldc.upenn.edu/ldc2009t23) FactBank 1.0, consists of 208 documents (over 77,000 tokens) from newswire and broadcast news reports in which event mentions are annotated with their degree of factuality.
@@ -175,12 +175,12 @@ Table of Contents
     - [UDS](http://decomp.io/projects/factuality/) Universal Decompositional Semantics It Happened Dataset, covers the entirety of the English Universal Dependencies v1.2 (EUD1.2) treebank, a large event factuality dataset.
     - [DLEF](https://github.com/qz011/dlef/tree/master/dlef_corpus) A document level event factuality (DLEF) dataset, which includes the source (English and Chinese), detailed guidelines for both document- and sentence-level event factuality.
   - Event Coreference
-    - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the EventCorefBank.
-
+    - [ECB 1.0](http://adi.bejan.ro/data/ECB1.0.tar.gz) This corpus consists of a collection of Google News documents annotated with within- and cross-document event coreference information. The documents are grouped according to the Google News Cluster, each group of documents representing the same seminal event (or topic).
+    - [ECB 2012](http://nlp.stanford.edu/pubs/jcoref-corpus.zip) Compared to ECB 1.0, this dataset is extended in two directions: (i) fully annotated sentences, and (ii) entity coreference relations. In addition, annotators removed relations other than coreference (e.g., subevent, purpose, related, etc.).
+    - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the ECB 1.0. A newly added corpus component consists of 502 documents that belong to the 43 topics of the ECB but that describe different seminal events than those already captured in the ECB.
 - Open Information Extraction
   - [oie-benchmark](**https**://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.
   - [NeuralOpenIE](https://onedrive.live.com/?authkey=%21AHj1kHDE5TSS0e8&cid=C826C2D6F4C7D993&id=C826C2D6F4C7D993%213193&parId=C826C2D6F4C7D993%213189&action=locate) A training dataset from *Neural Open Information Extraction*, ACL 2018. here are a total of 36,247,584 hsentence, tuplei pairs extracted from Wikipedia dump using OPENIE4.
-
 - Entity Linking
   - [WikilinksNED](https://github.com/yotam-happy/NEDforNoisyText) A large-scale Named Entity Disambiguation dataset of text fragments from the web, which is significantly noisier and more challenging than existing news-based datasets.
 
@@ -198,15 +198,13 @@ Table of Contents
   - [ATOMIC](https://homes.cs.washington.edu/~msap/atomic/), an atlas of everyday commonsense reasoning, organized through 877k textual descriptions of inferential knowledge. ATOMIC focuses on inferential knowledge organized as typed if-then relations with variables.
   - [SenticNet](http://sentic.net) SenticNet provides a set of semantics, sentics, and polarity associated with 100,000 natural language concepts. SenticNet consists of a set of tools and techniques for sentiment analysis combining commonsense reasoning, psychology, linguistics, and machine learning. 
 
-
-Other
+<span id="other">Other</span>
 ----
   - [QA-SRL](https://dada.cs.washington.edu/qasrl/) This dataset use question-answer pairs to model verbal predicate-argument structure. The questions start with wh-words (Who, What, Where, What, etc.) and contains a verb predicate in the sentence; the answers are phrases in the sentence.
   - [QA-SRL 2.0](https://github.com/uwnlp/qasrl-bank) This repository is the reference point for QA-SRL Bank 2.0, the dataset described in the paper Large-Scale QA-SRL Parsing, ACL 2018. 
   - [NEWSROOM](https://summari.es) CORNELL NEWSROOM is a large dataset for training and evaluating summarization systems. It contains 1.3 million articles and summaries written by authors and editors in the newsrooms of 38 major publications.
   - [CoNLL 2010 Uncertainty Detection](http://rgai.inf.u-szeged.hu/conll2010st/tasks.html) The aim of this task is to identify sentences in texts which contain unreliable or uncertain information. Training Data contains biological abstracts and full articles from the **BioScope** (biomedical domain) corpus and paragraphs from **Wikipedia** possibly containing weasel information.
   - [COLING 2018 automatic identification of verbal MWE](https://gitlab.com/parseme/sharedtask-data/tree/master/1.1) Corpora were annotated by human annotators with occurrences of verbal multiword expressions (VMWEs) according to common annotation guidelines. For example, "He **picked** one **up**."
-  
 - Scientific NLP
   - [PubMed 200k RCT](https://github.com/Franck-Dernoncourt/pubmed-rct) PubMed 200k RCT is new dataset based on PubMed for sequential sentence classification. The dataset consists of approximately 200,000 abstracts of randomized controlled trials, totaling 2.3 million sentences.
   - [Automatic Academic Paper Rating](https://github.com/lancopku/AAPR) A dataset for automatic academic paper rating (AAPR), which automatically determine whether to accept academic papers. The dataset consists of 19,218 academic papers by collecting data on academic pa- pers in the field of artificial intelligence from the arxiv.
@@ -215,10 +213,7 @@ Other
   - [SciBERT](https://github.com/allenai/scibert) SciBERT is a BERT model trained on scientific text. A broad set of scientific nlp datasets under the data/ directory across ner, parsring, pico and text classification.
   - [5AbstractsGroup](https://github.com/qianliu0708/5AbstractsGroup) The dataset contains academic papers from five different domains collected from the Web of Science, namely business, artifical intelligence, sociology, transport and law.
   - [SciCite](https://github.com/allenai/scicite) A new large dataset of citation intent from *Structural Scaffolds for Citation Intent Classification in Scientific Publications*
-  - [ACL-ARC](https://github.com/allenai/scicite) A dataset of citation intents in the computational linguistics domain (ACL-ARC) introduced by *Measuring the Evolution of a Scientific Field through Citation Frames*. 
+  - [ACL-ARC](https://github.com/allenai/scicite) A dataset of citation intents in the computational linguistics domain (ACL-ARC) introduced by *Measuring the Evolution of a Scientific Field through Citation Frames*.
 
------
-License
-----
-
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+<span id="contribute">Contribute</span>
+Contributions welcome!
