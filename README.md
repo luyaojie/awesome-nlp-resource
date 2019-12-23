@@ -179,7 +179,7 @@ Table of Contents
     - [ECB 2012](http://nlp.stanford.edu/pubs/jcoref-corpus.zip) Compared to ECB 1.0, this dataset is extended in two directions: (i) fully annotated sentences, and (ii) entity coreference relations. In addition, annotators removed relations other than coreference (e.g., subevent, purpose, related, etc.).
     - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the ECB 1.0. A newly added corpus component consists of 502 documents that belong to the 43 topics of the ECB but that describe different seminal events than those already captured in the ECB.
 - Open Information Extraction
-  - [oie-benchmark](**https**://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.
+  - [oie-benchmark](https://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.
   - [NeuralOpenIE](https://onedrive.live.com/?authkey=%21AHj1kHDE5TSS0e8&cid=C826C2D6F4C7D993&id=C826C2D6F4C7D993%213193&parId=C826C2D6F4C7D993%213189&action=locate) A training dataset from *Neural Open Information Extraction*, ACL 2018. here are a total of 36,247,584 hsentence, tuplei pairs extracted from Wikipedia dump using OPENIE4.
 - Entity Linking
   - [WikilinksNED](https://github.com/yotam-happy/NEDforNoisyText) A large-scale Named Entity Disambiguation dataset of text fragments from the web, which is significantly noisier and more challenging than existing news-based datasets.
