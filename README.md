@@ -51,6 +51,7 @@ Table of Contents
   - [PDTB2.0](https://catalog.ldc.upenn.edu/LDC2008T05) PDTB, version 2.0. annotates 40600 discourse relations, distributed into the following five types: Explicit, Implicit, etc.
   - [PDTB3.0](https://catalog.ldc.upenn.edu/LDC2019T05) In Version 3, an additional 13,000 tokens were annotated, certain pairwise annotations were standardized, new senses were included and the corpus was subject to a series of consistency checks. 
   - [Back-translation Annotated Implicit Discourse Relations](http://www.sfb1102.uni-saarland.de/?page_id=2582) This resource contains annotated implicit discourse relation instances. These sentences are annotated automatically by the back-translation of parallel corpora. 
+  - [DiscourseChineseTEDTalks](https://github.com/tjunlp-lab/Shallow-Discourse-Annotation-for-Chinese-TED-Talks) This dataset includes annotation for 16 TED Talks in Chinese.
 
 <span id='lm'>Language Model</span>
 ----
@@ -176,12 +177,12 @@ Table of Contents
     - [DLEF](https://github.com/qz011/dlef/tree/master/dlef_corpus) A document level event factuality (DLEF) dataset, which includes the source (English and Chinese), detailed guidelines for both document- and sentence-level event factuality.
   - Event Coreference
     - [ECB 1.0](http://adi.bejan.ro/data/ECB1.0.tar.gz) This corpus consists of a collection of Google News documents annotated with within- and cross-document event coreference information. The documents are grouped according to the Google News Cluster, each group of documents representing the same seminal event (or topic).
-    - [ECB 2012](http://nlp.stanford.edu/pubs/jcoref-corpus.zip) Compared to ECB 1.0, this dataset is extended in two directions: (i) fully annotated sentences, and (ii) entity coreference relations. In addition, annotators removed relations other than coreference (e.g., subevent, purpose, related, etc.).
+    - [EECB 1.0](http://nlp.stanford.edu/pubs/jcoref-corpus.zip) Compared to ECB 1.0, this dataset is extended in two directions: (i) fully annotated sentences, and (ii) entity coreference relations. In addition, annotators removed relations other than coreference (e.g., subevent, purpose, related, etc.).
     - [ECB+](http://www.newsreader-project.eu/results/data/the-ecb-corpus) The ECB+ corpus is an extension to the ECB 1.0. A newly added corpus component consists of 502 documents that belong to the 43 topics of the ECB but that describe different seminal events than those already captured in the ECB.
 - Open Information Extraction
   - [oie-benchmark](https://github.com/gabrielStanovsky/oie-benchmark#converting-qa-srl-to-open-ie) This repository contains code for converting QA-SRL annotations to Open-IE extractions and comparing Open-IE parsers against a converted benchmark corpus.
   - [NeuralOpenIE](https://onedrive.live.com/?authkey=%21AHj1kHDE5TSS0e8&cid=C826C2D6F4C7D993&id=C826C2D6F4C7D993%213193&parId=C826C2D6F4C7D993%213189&action=locate) A training dataset from *Neural Open Information Extraction*, ACL 2018. here are a total of 36,247,584 hsentence, tuplei pairs extracted from Wikipedia dump using OPENIE4.
-- Entity Linking
+- Other
   - [WikilinksNED](https://github.com/yotam-happy/NEDforNoisyText) A large-scale Named Entity Disambiguation dataset of text fragments from the web, which is significantly noisier and more challenging than existing news-based datasets.
 
 <span id="nli">Natural Language Inference</span>
