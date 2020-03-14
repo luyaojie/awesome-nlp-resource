@@ -215,6 +215,7 @@ Table of Contents
   - [5AbstractsGroup](https://github.com/qianliu0708/5AbstractsGroup) The dataset contains academic papers from five different domains collected from the Web of Science, namely business, artifical intelligence, sociology, transport and law.
   - [SciCite](https://github.com/allenai/scicite) A new large dataset of citation intent from *Structural Scaffolds for Citation Intent Classification in Scientific Publications*
   - [ACL-ARC](https://github.com/allenai/scicite) A dataset of citation intents in the computational linguistics domain (ACL-ARC) introduced by *Measuring the Evolution of a Scientific Field through Citation Frames*.
+  - [GASP](https://github.com/ART-Group-it/GASP) The dataset consists of list of cited abstracts associated with the corresponding source abstract. The goal is to generete the abstract of a target paper given the abstracts of cited papers.
 
 <span id="contribute">Contribute</span>
 Contributions welcome!
