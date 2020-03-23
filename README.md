@@ -133,7 +133,6 @@ Table of Contents
   - [Quora Question Pairs](http://qim.ec.quoracdn.net/quora_duplicate_questions.tsv) Quora Question Pairs dataset consists of over 400,000 lines of potential question duplicate pairs. [[Kaggle Version Format]](https://www.kaggle.com/c/quora-question-pairs/data)
   - [Ask Ubuntu](https://github.com/taolei87/askubuntu) This repo contains a preprocessed collection of questions taken from AskUbuntu.com 2014 corpus dump. It also comes with 400\*20 mannual annotations, marking pairs of questions as "similar" or "non-similar", from *Semi-supervised Question Retrieval with Gated Convolutions, NAACL2016*.
 
-
 <span id="ie">Information Extraction</span>
 ----
 - Entity
@@ -144,10 +143,11 @@ Table of Contents
   - [MIT Movie Corpus](https://groups.csail.mit.edu/sls/downloads/) The MIT Movie Corpus is a semantically tagged training and test corpus in BIO format. The eng corpus are simple queries, and the trivia10k13 corpus are more complex queries.
   - [MIT Restaurant Corpus](https://groups.csail.mit.edu/sls/downloads/) The MIT Restaurant Corpus is a semantically tagged training and test corpus in BIO format.
 - Relation Extraction
-  - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers. 
   - [Datasets of Annotated Semantic Relationships](https://github.com/davidsbatista/Annotated-Semantic-Relationships-Datasets) **RECOMMEND** This repository contains annotated datasets which can be used to train supervised models for the task of semantic relationship extraction.
   - [TACRED](https://nlp.stanford.edu/projects/tacred/) TACRED is a large-scale relation extraction dataset with 106,264 examples built over newswire and web text from the corpus used in the yearly TAC Knowledge Base Population (TAC KBP) challenges. Details in *Position-aware Attention and Supervised Data Improve Slot Filling, EMNLP 2017*.
   - [FewRel](http://www.zhuhao.me/fewrel/) FewRel is a Few-shot Relation classification dataset, which features 70, 000 natural language sentences expressing 100 relations annotated by crowdworkers.
+  - [SemEval 2018 Task7](https://lipn.univ-paris13.fr/~gabor/semeval2018task7/) The training data and evaluation script for SemEval 2018 Task 7: Semantic Relation Extraction and Classification in Scientific Papers.
+  - [Chinese-Literature-NER-RE](https://github.com/lancopku/Chinese-Literature-NER-RE-Dataset) A discourse-level Named Entity Recognition and Relation Extraction dataset for Chinese literature text. It contains 726 articles, 29,096 sentences and over 100,000 characters in total.
 - Event
   - [ACE 2005 Training Data](http://catalog.ldc.upenn.edu/LDC2006T06) The corpus consists of data of various types annotated for entities, relations and events was created by Linguistic Data Consortium with support from the ACE Program, across three languages: English, Chinese, Arabic.
   - [Chinese Emergency Corpus (CEC)](https://github.com/shijiebei2009/CEC-Corpus) Chinese Emergency Corpus (CEC) is built by Data Semantic Laboratory in Shanghai University. This corpus is divided into 5 categories – earthquake, fire, traffic accident, terrorist attack and intoxication of food.
@@ -160,6 +160,7 @@ Table of Contents
   - [AutoLabelEvent](https://github.com/acl2017submission/event-data) The data of the work in *Automatically Labeled Data Generation for Large Scale Event Extraction, ACL2017*.
   - [EventInFrameNet](https://github.com/liushulinle/events_in_framenet) The data of the work in *Leveraging FrameNet to Improve Automatic Event Detection, ACL2016*.
   - [MEANTIME](http://www.newsreader-project.eu/results/data/wikinews/) The MEANTIME Corpus (the NewsReader Multilingual Event ANd TIME Corpus) consists of a total of 480 news articles: 120 English Wikinews articles on four topics and their translations in Spanish, Italian, and Dutch. It has been annotated manually at multiple levels, including entities, events, temporal information, semantic roles, and intra-document and cross-document event and entity coreference.
+  - [BioNLP-ST 2013](http://2013.bionlp-st.org/tasks) BioNLP-ST 2013 features the six event extraction tasks: Genia Event Extraction for NFkB knowledge base construction, Cancer Genetics, Pathway Curation, Corpus Annotation with Gene Regulation Ontology, Gene Regulation Network in Bacteria, and Bacteria Biotopes (semantic annotation by an ontology).
   - Event Temporal and Causal Relations
     - [CaTeRS](http://cs.rochester.edu/nlp/rocstories/CaTeRS/) Causal and Temporal Relation Scheme (CaTeRS),which is unique in simultaneously capturing a com- prehensive set of temporal and causal relations between events. CaTeRS contains a total of 1,600 sentences in the context of 320 five-sentence short stories sampled from ROCStories corpus.
     - [Causal-TimeBank](https://hlt-nlp.fbk.eu/technologies/causal-timebank) Causal-TimeBank is the TimeBank corpus taken from TempEval-3 task, which puts new information about causality in the form of C-SIGNALs and CLINKs annotation. 6,811 EVENTs (only instantiated events by MAKEINSTANCE tag of TimeML), 5,118 TLINKs (temporal links), 171 CSIGNALs (causal signals), 318 CLINKs (causal links).
