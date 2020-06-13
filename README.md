@@ -223,6 +223,7 @@ Table of Contents
 <span id="sci_nlp">Scientific NLP</span>
 ----
 
+- [S2ORC: Semantic Scholar Open Research Corpus](https://allenai.org/data/s2orc) A large corpus of 81.1M English-language academic papers spanning many academic disciplines. Rich metadata, paper abstracts, resolved bibliographic references, as well as structured full text for 8.1M open access papers.
 - [PubMed 200k RCT](https://github.com/Franck-Dernoncourt/pubmed-rct) PubMed 200k RCT is new dataset based on PubMed for sequential sentence classification. The dataset consists of approximately 200,000 abstracts of randomized controlled trials, totaling 2.3 million sentences.
 - [Automatic Academic Paper Rating](https://github.com/lancopku/AAPR) A dataset for automatic academic paper rating (AAPR), which automatically determine whether to accept academic papers. The dataset consists of 19,218 academic papers by collecting data on academic pa- pers in the field of artificial intelligence from the arxiv.
 - [ACL Title and Abstract Dataset](https://github.com/EagleW/ACL_titles_abstracts_dataset) This dataset gathers 10,874 title and abstract pairs from the ACL Anthology Network (until 2016).
