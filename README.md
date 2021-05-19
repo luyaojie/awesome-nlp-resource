@@ -6,7 +6,7 @@ Table of Contents
 
 - [Dictionary](#dictionary)
 - [Lexicon](#lexicon)
-- [Parsing](#parsing)
+- [TreeBank](#treebank)
 - [Discourse](#discourse)
 - [Language Model](#language-model)
 - [Machine Translation](#machine-translation)
@@ -42,13 +42,14 @@ Table of Contents
 - [SemLink](https://verbs.colorado.edu/semlink) A project whose aim is to link together different lexical resources via set of mappings. (VerbNet, PropBank, FrameNet, WordNet)
 - [Framester](https://lipn.univ-paris13.fr/framester/) Framester is a hub between FrameNet, WordNet, VerbNet, BabelNet, DBpedia, Yago, DOLCE-Zero, as well as other resources. Framester does not simply creates a strongly connected knowledge graph, but also applies a rigorous formal treatment for Fillmore's frame semantics, enabling full-fledged OWL querying and reasoning on the created joint frame-based knowledge graph.
 
-<span id='parsing'>Parsing</span>
+<span id='treebank'>TreeBank</span>
 ----
 
 - [PTB](https://catalog.ldc.upenn.edu/LDC99T42) The Penn Treebank (PTB).
 - [Universal Dependencies](http://universaldependencies.org) Universal Dependencies (UD) is a framework for cross-linguistically consistent grammatical annotation and an open community effort with over 200 contributors producing more than 100 treebanks in over 60 languages.
 - [Tweebank](https://github.com/Oneplus/Tweebank) Tweebank v2 is a collection of English tweets annotated in Universal Dependencies that can be exploited for the training of NLP systems to enhance their performance on social media texts.
 - [SemEval-2016 Task 9](https://github.com/HIT-SCIR/SemEval-2016) SemEval-2016 Task 9 (Chinese Semantic Dependency Parsing) Datasets.
+- [Universal Proposition Banks](https://github.com/System-T/UniversalPropositions) This project uses the frame and role labels of the English Proposition Bank to label shallow semantics in sentences in new target languages (English, Chinese, Finnish, German, Italian, Portuguese, Spanish).
 
 <span id='discourse'>Discourse</span>
 ----
